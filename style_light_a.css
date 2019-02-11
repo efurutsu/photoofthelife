@@ -78,6 +78,9 @@ iframe{
 .pocket {
   background-color: #ee4256;
 }
+.feedly {
+  background-color: #42ee56;
+}
 @media screen and (max-width:480px) {
   .sns ul li {
     width: 33.3%;
