@@ -537,7 +537,7 @@ p.st-post-footer-buttons {
 /*   サイドバー見出し   */
 .sidebar h2,h3,h4{
   padding:5px 0 5px 10px;
-  font-size:20px;
+  font-size:18px;
   font-weight:700;
   color:#bbbbbb; /* DarkSet */
   border-left: 2px solid #008ec2;
