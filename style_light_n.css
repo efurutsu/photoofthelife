@@ -359,7 +359,7 @@ article-list-link{
 }
 /*記事一覧の公開日、カテゴリ名  */
 .snippet{
-  font-size:14px;
+  font-size:16px;
   padding:0 !important;
   color:#555; /* DarkSet */
   margin-top:15px !important;
