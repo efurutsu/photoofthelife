@@ -336,8 +336,8 @@ p.kousin a {
 }
 .article-list img{
   float:left;
-  width:300px;
-  height:185px;
+  width:250px;
+  height:167px;
   padding-right:10px;
   object-fit: cover;
 }
