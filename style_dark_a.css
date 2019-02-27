@@ -124,14 +124,14 @@ blockquote {
   margin-bottom:30px;
 }
 .entry-title {
-  color: #fecb17; /* DarkSet */
+  color: #fc2; /* DarkSet */
 }
 .entry-title h1{
   font-size:20px;
   line-height:1.6em;
   margin-bottom:10px;
   background: #008ec2;
-  color: #fecb17;
+  color: #fff;
 }
 .entry-content h2{
   padding: .5em .75em;
