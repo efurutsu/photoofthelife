@@ -5,6 +5,7 @@ body{
   margin:0;
   font-size:16px;
   line-height:1.6em;
+  color:#fecb17;
 }
 img, video, object {
   max-width: 100%;
@@ -122,7 +123,6 @@ blockquote {
   font-size:20px;
   line-height:1.6em;
   margin-bottom:30px;
-  color:#fecb17;
 }
 .entry-title {
 /*
