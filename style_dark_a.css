@@ -499,6 +499,8 @@ p.st-post-footer-buttons {
 /* コメント入力欄の初期値は非表示 */
 #comment-editor {
   display:none;
+  background-color: #161616; /* DarkSet */
+  color: #ffffff;
 }
 /* コメント入力欄表示用要素はカーソルを指にする */
 #comment-post-message {
