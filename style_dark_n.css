@@ -415,7 +415,7 @@ a.taglink:hover{color:white;background:#008ec2;
 --------------------------------------- */  
 .breadcrumb-wrapper { 
   margin: 0px 0px 0px 5px; /* マージンなしで狭く上下を表示 オリジナルは margin: 10px 0 15px; */
-  font-size:13px;
+  font-size:10px;
 }
 .breadcrumb {
   padding:0 !important;
@@ -499,8 +499,6 @@ p.st-post-footer-buttons {
 /* コメント入力欄の初期値は非表示 */
 #comment-editor {
   display:none;
-  background-color: #161616; /* DarkSet */
-  color: #ffffff;
 }
 /* コメント入力欄表示用要素はカーソルを指にする */
 #comment-post-message {
