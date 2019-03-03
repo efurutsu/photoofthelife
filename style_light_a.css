@@ -610,7 +610,7 @@ p.st-post-footer-buttons {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-  font-size:13px;
+  font-size:10px;
   line-height:1.4em;
   display: block;          /* pをボックス要素に */
   height: 2.8em;           /* ２行分の高さ */
