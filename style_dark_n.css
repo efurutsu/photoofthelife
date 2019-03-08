@@ -504,6 +504,10 @@ p.st-post-footer-buttons {
 #comment-post-message {
   cursor:pointer;
 }
+/* コメントエディタ */
+#comment-editor {
+  background-color: #161616; /* DarkSet */
+}
 /*    ページナビゲーション
 ------------------------------------------------ */
 #blog-pager a{
