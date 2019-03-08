@@ -393,7 +393,7 @@ article-list-link{
 .taglink {
   display: inline-block;
   position: relative;
-  height: 20px;/*‚‚³*/
+  height: 16px;/*‚‚³*/
   line-height: 20px;/*‚‚³*/
   vertical-align: middle;
   text-align: center;
@@ -401,8 +401,8 @@ article-list-link{
   background: #666666;
   color: #FFF;/*•¶šF*/
   box-sizing: border-box;
-  border-radius: 5px;/*Šp‚ğŠÛ‚­*/
-  font-size:14px !important;
+  border-radius: 3px;/*Šp‚ğŠÛ‚­*/
+  font-size:10px !important;
   margin: 1px;
 }
 a.taglink:link{color:white;}
@@ -785,7 +785,7 @@ p.st-post-footer-buttons {
   height: 16px;/*‚‚³*/
   line-height: 16px;/*‚‚³*/
   border-radius: 3px;/*Šp‚ğŠÛ‚­*/
-  font-size:12px !important;
+  font-size:10px !important;
 }
 #header-inner{
   width:auto;
