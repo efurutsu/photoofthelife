@@ -100,7 +100,7 @@ iframe{
   color:#3366cc;
 }
 .post a:hover {
-/*  text-decoration:underline; */
+  text-decoration:underline;
   color:#3366cc;
 }
 .post a:visited{
