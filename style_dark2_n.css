@@ -129,19 +129,19 @@ blockquote {
 }
 .entry-title h1{
   font-size:20px;
-  padding:15px 0 15px 10px;
+  padding:0px 0 0px 10px;
   border-left: 16px solid #008ec2;
   color:#008ec2;
 }
 .entry-content h2{
   font-size:18px;
-  padding:15px 0 15px 10px;
+  padding:0px 0 0px 10px;
   border-left: 12px solid #008ec2;
   color:#008ec2;
 }
 .entry-content h3{
   font-size:16px;
-  padding:15px 0 15px 10px;
+  padding:0px 0 0px 10px;
   border-left: 8px solid #008ec2;
   color:#008ec2;
 }
