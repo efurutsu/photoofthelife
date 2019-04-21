@@ -299,12 +299,12 @@ div#Navbar1 {
 .post-outer ul {
   list-style-type: disc;
   padding:20px;
-  margin-bottom: 5px !important;
+  margin-bottom: 30px !important;
 }
 .post-outer ol {
   list-style-type: decimal;
   padding:20px;
-  margin-bottom: 5px !important;
+  margin-bottom: 30px !important;
 }
 /*  記事ページの公開日 カテゴリ名 */
 p.kousin{
