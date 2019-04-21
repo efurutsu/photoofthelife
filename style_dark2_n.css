@@ -304,7 +304,7 @@ div#Navbar1 {
 .post-outer ol {
   list-style-type: decimal;
   padding:20px;
-  margin-bottom: 30px !important;
+  margin-bottom: 5px !important;
 }
 /*  記事ページの公開日 カテゴリ名 */
 p.kousin{
