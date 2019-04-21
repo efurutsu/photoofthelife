@@ -308,7 +308,7 @@ div#Navbar1 {
 }
 /*  記事ページの公開日 カテゴリ名 */
 p.kousin{
-  font-size: 14px;
+  font-size: 12px;
   display: inline-block;
   color: #696969;
   padding-bottom:3px !important;  
@@ -371,7 +371,7 @@ article-list-link{
   -webkit-line-clamp: 4;
 }
 .post-timestamp {
-  font-size:14px !important;
+  font-size:12px !important;
   opacity:0.7;
   color:#bbb; /* DarkSet */
   padding-bottom:2px !important;
@@ -382,7 +382,7 @@ article-list-link{
   display:inline-block;
 }
 .post-tag{
-  font-size:14px !important;
+  font-size:12px !important;
 /*  background: white; */
   padding:1px 1px !important;
   margin-top:0px;
