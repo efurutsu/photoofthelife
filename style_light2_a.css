@@ -508,24 +508,12 @@ p.st-post-footer-buttons {
 }
 /*    ページナビゲーション
 ------------------------------------------------ */
-#blog-pager a{
-  font-size: 14px;
-  padding:16px 8px;
-  width:130px;
-  box-sizing:border-box;
-  color: #555; /* DarkSet */
-  background-color:#ffffff; /* DarkSet */
-  border:1px solid #dedede; /* DarkSet */
-  margin:3px 6px;
-  display: inline-block;
-  transition:0.3s;
-  box-shadow:1px 1px 2px rgba(0,0,0, .4); /* 影 */
-}
-#blog-pager a:hover{
-  text-decoration:none;
-  color:#fff;
-  background:#008ec2;
-}
+#blog-pager{clear:both;margin:30px auto;text-align:center; padding: 7px;}
+.blog-pager {background: none;}
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 14px;padding: 5px 12px;margin-right:5px; color: #666; background-color:#eee;}
+.displaypageNum a:hover,.showpage a:hover, .pagecurrent{background:#359BED;text-decoration:none;color: #fff;}
+#blog-pager .pagecurrent{font-weight:bold;color: #fff;background:#359BED;}
+ .showpageOf{display:none!important}
 #blog-pager .pages{border:none;}
 
 /*   サイドバー
