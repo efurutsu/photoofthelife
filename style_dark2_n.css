@@ -851,6 +851,9 @@ nav{
 .article-list {
   padding:15px 5px 10px 10px !important;
 }
+.article-tag{
+    font-size:8px;
+}
 .article-thumbnail img{
   width:150px !important;
   height:100px !important;
