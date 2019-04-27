@@ -861,6 +861,10 @@ nav{
   width:auto;
   float:none;
 }
+.article-list-title{
+	top:20px;
+	left:170px;
+}
 .article-list-title h2{
   font-size:16px;
   line-height:1.4em;

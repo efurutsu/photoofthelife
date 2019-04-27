@@ -347,7 +347,7 @@ p.kousin a {
 /*  記事一覧のタイトル  */
 
 .article-list-title{
-  overflow:hidden;
+	overflow:hidden;
 }
 .article-list-title h2{
   color:#bbb; /* DarkSet */
@@ -848,6 +848,10 @@ nav{
 .article-list{
   width:auto;
   float:none;
+}
+.article-list-title{
+	top:20px;
+	left:170px;
 }
 .article-list-title h2{
   font-size:16px;
