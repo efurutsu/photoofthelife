@@ -870,7 +870,10 @@ nav{
   line-height:1.4em;
 }
 .snippet{
-  display:none;
+  font-size:10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 #related-posts{
   width:98%;
