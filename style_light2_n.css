@@ -371,7 +371,7 @@ article-list-link{
   word-break:break-all;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 8;
+  -webkit-line-clamp: 6;
 }
 .post-timestamp {
   font-size:12px !important;
