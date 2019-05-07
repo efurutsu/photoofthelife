@@ -535,7 +535,7 @@ p.st-post-footer-buttons {
   font-size:18px;
   font-weight:700;
   color:#bbbbbb; /* DarkSet */
-  border-left: 2px solid #008ec2;
+  border-left: 5px solid #008ec2;
   margin-bottom: 5px;
   margin-top: 15px;
 }
