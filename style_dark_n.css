@@ -90,7 +90,7 @@ iframe{
 /*   目次
 ----------------------------------------------- */
 #toc {
-  background:#101010; /* DarkSet */
+  background:#222222; /* DarkSet */
 }
 
 /*   記事ページのリンク
@@ -365,13 +365,13 @@ article-list-link{
   font-size:13px;
   padding:0 !important;
   color:#bbb; /* DarkSet */
-  margin-top:15px !important;
+  margin-top:5px !important;
   margin-bottom: 5px;
   line-height:1.4em !important;
   word-break:break-all;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 6;
 }
 .post-timestamp {
   font-size:12px !important;
@@ -512,25 +512,13 @@ p.st-post-footer-buttons {
 }
 /*    ページナビゲーション
 ------------------------------------------------ */
-#blog-pager a{
-  font-size: 14px;
-  padding:16px 8px;
-  width:130px;
-  box-sizing:border-box;
-  color: #bbb; /* DarkSet */
-  background-color:#080808; /* DarkSet */
-  border:1px solid #666666; /* DarkSet */
-  margin:3px 6px;
-  display: inline-block;
-  transition:0.3s;
-  box-shadow:1px 1px 2px rgba(0,0,0, .4); /* 影 */
-}
-#blog-pager a:hover{
-  text-decoration:none;
-  color:#fff;
-  background:#008ec2;
-}
-#blog-pager .pages{border:none;}
+#blog-pagerX{clear:both;margin:30px auto;text-align:center; padding: 7px;}
+.blog-pagerX {background: none;}
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 14px;padding: 5px 12px;margin-right:5px; color: #ddd; background-color:#333;}
+.displaypageNum a:hover,.showpage a:hover, .pagecurrent{background:#359BED;text-decoration:none;color: #fff;}
+#blog-pagerX .pagecurrent{font-weight:bold;color: #fff;background:#359BED;}
+ .showpageOf{display:none!important}
+#blog-pagerX .pages{border:none;}
 
 /*   サイドバー
 -------------------------------------- */
@@ -547,7 +535,7 @@ p.st-post-footer-buttons {
   font-size:18px;
   font-weight:700;
   color:#bbbbbb; /* DarkSet */
-  border-left: 2px solid #008ec2;
+  border-left: 5px solid #008ec2;
   margin-bottom: 5px;
   margin-top: 15px;
 }
@@ -861,7 +849,10 @@ nav{
   text-decoration:none !important;
 }
 .article-list {
-  padding:15px 5px 10px 10px !important;
+  padding:0px 5px 10px 10px !important;
+}
+.article-tag{
+    font-size:8px;
 }
 .article-thumbnail img{
   width:150px !important;
@@ -877,12 +868,19 @@ nav{
   width:auto;
   float:none;
 }
+.article-list-title{
+	top:1px;
+	left:170px;
+}
 .article-list-title h2{
   font-size:16px;
   line-height:1.4em;
 }
 .snippet{
-  display:none;
+  font-size:10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 #related-posts{
   width:98%;
