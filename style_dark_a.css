@@ -26,7 +26,7 @@ a{
 }
 /*  記事部分とサイドバー  */
 .content-wrapper{
-  width: 1098px;  /*  記事部分　サイドバーの横幅  */
+  width: 1050px;  /*  記事部分　サイドバーの横幅  */
   margin-right: auto;
   margin-left: auto;
   padding-top:10px;
@@ -168,7 +168,7 @@ blockquote {
   background-color: $(header.background.color);
 }
 #header-inner{
-  width:1098px;
+  width:1050px;
   margin:0 auto;
   padding-left:50px;
   padding-right:10px;
@@ -179,17 +179,17 @@ blockquote {
 }
 .PageList{
   width:100%;
-  width:1098px;
+  width:1050px;
   margin:0 auto;
   background-color:#4b99b5; /* コメントアウトでPCで中間範囲のメニューになる */
 }
 .grobal-navi{
-  width:1098px;
+  width:1050px;
   margin:0 auto;
 }
 /* Google翻訳を適正に表示させるため */
 #google_translate_element{
-  width:1098px;
+  width:1050px;
   height:0px;
   margin:0 auto;
   text-align: right;
@@ -278,7 +278,7 @@ div#Navbar1 {
 -------------------------------------------- */
 .main-outer{
   float:left;
-  width:758px;
+  width:710px;
   box-sizing:border-box;
   border-left:1px solid #222222;  /* DarkSet */
   border-right:1px solid #222222; /* DarkSet */
