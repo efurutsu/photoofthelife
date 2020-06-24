@@ -848,7 +848,8 @@ nav{
   padding:0px 5px 10px 10px !important;
 }
 .article-tag{
-    font-size:8px;
+  font-size:8px;
+  width:150px;
 }
 .article-thumbnail img{
   width:150px !important;
