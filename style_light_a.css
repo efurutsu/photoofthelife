@@ -710,7 +710,7 @@ p.st-post-footer-buttons {
 .pagetop {
   display: none;
   position: fixed;
-  bottom: 30px;
+  bottom: 180px;
   right: 15px;
 }
 .pagetop a {
@@ -832,7 +832,7 @@ nav{
   padding:0px 5px 10px 10px !important;
 }
 .article-tag{
-  font-size:8px;
+    font-size:8px;
 }
 .article-thumbnail img{
   width:150px !important;
