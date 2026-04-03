@@ -697,7 +697,7 @@ p.st-post-footer-buttons {
 .button-toggle{
   display:none;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 790px){
   .button-toggle{
     display:block !important;
     width:100%;
@@ -742,7 +742,7 @@ p.st-post-footer-buttons {
 
 /*   レスポンシブデザイン
 --------------------------------------------------- */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 790px){
 
 .content-wrapper{
   width:auto;
@@ -928,7 +928,7 @@ img{
   padding:10px;
   box-sizing:border-box;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 790px){
 .post-outer{
   margin-bottom:10px;
   box-shadow:none !important;
