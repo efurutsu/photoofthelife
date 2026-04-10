@@ -514,7 +514,7 @@ p.st-post-footer-buttons {
 /*    ページナビゲーション
 ------------------------------------------------ */
 .displaypageNum, .showpage, .pagecurrent {font-size: 14px;padding: 5px 12px;margin-right:5px; background-color:#333; color: #fff;}
-.displaypageNum a, .showpage a {font-size: 14px;padding: 5px 12px;margin-right:5px; background-color:#333; color: #fff;}
+.displaypageNum a:link, .showpage a:link {font-size: 14px;padding: 5px 12px;margin-right:5px; background-color:#333; color: #fff;}
 .displaypageNum a:hover, .showpage a:hover, .pagecurrent {font-size: 14px;padding: 5px 12px;margin-right:5px; background:#359BED; text-decoration:none; color: #fff;}
 .showpageOf{display:none!important}
 
