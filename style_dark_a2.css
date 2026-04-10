@@ -373,6 +373,8 @@ article-list-link{
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
+  overflow: hidden;        /* はみ出た部分を隠す */
+  text-overflow: ellipsis; /* 三点リーダー(...)で省略 */
 }
 .post-timestamp {
   font-size:12px !important;
