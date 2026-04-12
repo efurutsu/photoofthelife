@@ -911,9 +911,9 @@ img{
   box-shadow:none !important;
 }
 .post-outer{
-  background-color:#181818; /* DarkSet */
+  background-color:#282828; /* DarkSet */
   border:1px solid #404040; /* DarkSet */
-  box-shadow:1px 1px 2px rgba(0,0,0, .4); /* ‰e */
+  box-shadow:1px 2px 2px rgba(0,0,0, .4); /* ‰e */
   margin-bottom:10px;
 }
 .date-outer {

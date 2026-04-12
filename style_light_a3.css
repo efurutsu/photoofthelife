@@ -907,8 +907,8 @@ img{
 }
 .post-outer{
   background-color:#efefef; /* DarkSet */
-  border:1px solid #e5e5e5; /* DarkSet */
-  box-shadow:1px 1px 2px rgba(0,0,0, .4); /* ‰e */
+  border:1px solid #d5d5d5; /* DarkSet */
+  box-shadow:1px 2px 2px rgba(0,0,0, .4); /* ‰e */
   margin-bottom:10px;
 }
 .date-outer {
