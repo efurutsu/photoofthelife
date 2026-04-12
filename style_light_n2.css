@@ -1,7 +1,7 @@
 body{
   font-family:"meiryo","メイリオ","ＭＳ Ｐゴシック",sans-serif;
-  background-color: #f1f1f1;  /* DarkSet 全体の背景色  */
-  color:#000000; /* DarkSet 全体のフォント色  */
+  background-color: #f1f1f1;  /* LightSet 全体の背景色  */
+  color:#000000; /* LightSet 全体のフォント色  */
   margin:0;
   font-size:16px;
   line-height:1.6em;
@@ -90,7 +90,7 @@ iframe{
 /*   目次
 ----------------------------------------------- */
 #toc {
-  background:#e9e9e9; /* DarkSet */
+  background:#e9e9e9; /* LightSet */
 }
 
 /*   記事ページのリンク
@@ -125,7 +125,7 @@ blockquote {
   margin-bottom:30px;
 }
 .entry-title {
-  color: #000; /* DarkSet */
+  color: #000; /* LightSet */
 }
 .entry-title h1{
   font-size:20px;
@@ -280,8 +280,8 @@ div#Navbar1 {
   float:left;
   width:710px;
   box-sizing:border-box;
-  border-left:1px solid #e4e4e4;  /* DarkSet */
-  border-right:1px solid #e4e4e4; /* DarkSet */
+  border-left:1px solid #e4e4e4;  /* LightSet */
+  border-right:1px solid #e4e4e4; /* LightSet */
 }
 .post-body{
   padding:0 15px;
@@ -335,7 +335,7 @@ p.kousin a {
   transition:0.3s;
 }
 .article-list:hover{
-  background-color:#d9d9d9; /* DarkSet */
+  background-color:#d9d9d9; /* LightSet */
 }
 .article-list img{
   float:left;
@@ -350,7 +350,7 @@ p.kousin a {
   overflow:hidden;
 }
 .article-list-title h2{
-  color:#555; /* DarkSet */
+  color:#555; /* LightSet */
   font-size:16px;
   margin-bottom:2px; /* 10/19追加 */
 }
@@ -364,7 +364,7 @@ article-list-link{
 .snippet{
   font-size:13px;
   padding:0 !important;
-  color:#555; /* DarkSet */
+  color:#555; /* LightSet */
   margin-top:5px !important;
   margin-bottom: 5px;
   line-height:1.4em !important;
@@ -372,11 +372,13 @@ article-list-link{
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
+  overflow: hidden;           /* はみ出た部分を隠す */
+  text-overflow: ellipsis; /* 三点リーダー(...)で省略 */
 }
 .post-timestamp {
   font-size:12px !important;
   opacity:0.7;
-  color:#555; /* DarkSet */
+  color:#555; /* LightSet */
   padding-bottom:2px !important;
   margin-left: 0; /* 明確にゼロ指定しないとIEでの時計マーク表示が陥没する */
   margin-right: 5px !important;
@@ -444,7 +446,7 @@ a.taglink:hover{color:white;background:#008ec2;
   width:auto;
 }
 #related-posts a{
-  color:#555; /* DarkSet */
+  color:#555; /* LightSet */
   transition:0.3s;
 }
 #related-posts a:hover{
@@ -485,17 +487,17 @@ p.st-post-footer-buttons {
 ------------------------------------------------ */
 * コメント欄下区切り線 */
 .comment-block{
-  background-color: #ffffff; /* DarkSet */
+  background-color: #ffffff; /* LightSet */
   border-bottom: 3px dotted #A4A4A4 ;
   margin-top:3px;
 }
 /* 返信コメントの背景色 */
 .comment-replies{
-  background-color: #f1f1f1; /* DarkSet */
+  background-color: #f1f1f1; /* LightSet */
 }
 /* コメント欄内右側余白 */
 .comment-content{
-  background-color: #ffffff; /* DarkSet */
+  background-color: #ffffff; /* LightSet */
   padding-right:5%;
 }
 /* コメント入力欄の初期値は非表示 */
@@ -527,7 +529,7 @@ p.st-post-footer-buttons {
   padding:5px 0 5px 10px;
   font-size:18px;
   font-weight:700;
-  color:#333333; /* DarkSet */
+  color:#333333; /* LightSet */
   border-left: 5px solid #008ec2;
   margin-bottom: 5px;
   margin-top: 15px;
@@ -535,7 +537,7 @@ p.st-post-footer-buttons {
 /*   新着記事    
 --------------------------------------- */
 .bcd140526_post_feed li.item h3.title a {
-  color: #555; /* DarkSet */
+  color: #555; /* LightSet */
   font-weight: 700;
   font-size: 15px;
   line-height: 1.3em;
@@ -568,7 +570,7 @@ p.st-post-footer-buttons {
 --------------------------------------- */
 .popular-post ul li a {
   font-size: 15px;
-  color: #555; /* DarkSet */
+  color: #555; /* LightSet */
   font-weight: 700;
   transition:0.3s;  /* 徐々に変化させる */
 }
@@ -630,11 +632,11 @@ p.st-post-footer-buttons {
 
 .list-label-widget-content ul li a {
   font-size: 10px;
-  color: #555555; /* DarkSet */
-  background-color:#ffffff; /* DarkSet */
+  color: #555555; /* LightSet */
+  background-color:#ffffff; /* LightSet */
   transition:0.3s;  /* 徐々に変化させる */
   padding: 3px 5px;
-  border: 1px solid #e4e4e4; /* DarkSet */
+  border: 1px solid #e4e4e4; /* LightSet */
   border-radius: 3px;
   box-shadow:1px 1px 2px rgba(0,0,0, .4); /* 影 */
   margin: 0 0 0 5px;
@@ -659,7 +661,7 @@ p.st-post-footer-buttons {
 -------------------------------------------- */  
 .LinkList ul li a {
    font-size: 15px;
-   color: #555; /* DarkSet */
+   color: #555; /* LightSet */
    font-weight: 700;
   transition:0.3s;  /* 徐々に変化させる */
 }
@@ -744,8 +746,8 @@ p.st-post-footer-buttons {
 }
 
 .gsc-search-box input{
-  background-color: #ffffff; /* DarkSet */
-  color: #000000; /* DarkSet */
+  background-color: #ffffff; /* LightSet */
+  color: #000000; /* LightSet */
 }
 
 /*   レスポンシブデザイン
