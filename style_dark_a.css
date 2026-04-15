@@ -34,58 +34,6 @@ a{
 iframe{
   max-width:100%;
 }
-/* SNSボタンのカスタマイズ */
-.post-outer .sns ul {
-  overflow: hidden;
-  list-style: none;
-  padding: 0;
-  margin: 1em 0;
-}
-.sns ul li {
-  float: left;
-  display: inline-block;
-  text-align: center;
-  width: 16.6%;
-  padding: 0;
-}
-.sns ul li a {
-  color: #ffffff;
-  display: block;
-  padding: 8px 0;
-}
-.sns ul li a:hover {
-  opacity: 0.8;
-}
-.twitter {
-  background-color: #1da1f2;
-}
-.facebook {
-  background-color: #3b5998;
-}
-.google1 {
-  background-color: #dd4b39;
-}
-.line a {
-  background-color: #6cc655;
-}
-.hatebu {
-  background-color: #00a4de;
-}
-.hatebu i {
-  font-family: sans-serif;
-  font-weight: bold;
-}
-.pocket {
-  background-color: #ee4256;
-}
-.feedly {
-  background-color: #ee4256;
-}
-@media screen and (max-width:480px) {
-  .sns ul li {
-    width: 33.3%;
-  }
-}
 
 /*   目次
 ----------------------------------------------- */
@@ -165,7 +113,7 @@ blockquote {
 --------------------------------------- */
 .Header{
   width:100%;
-  background-color: $(header.background.color);
+  background-color: #161616;  /* DarkSet 全体の背景色  */
 }
 #header-inner{
   width:1050px;
@@ -229,51 +177,6 @@ blockquote {
   margin-left:40px;
   margin-top:0px;
 }
-
-/*   ヘッダーナビゲーション 
-------------------------------------------- */
-.header-nav{
-  padding:0 !important;
-}
-.header-nav li{
-  float:left;
-  list-style:none;
-  font-size:14px;
-  padding:0;
-}
-.header-nav a{
-  padding: 10px 20px;
-  font-size: 14px;
-  color: #fff;
-  background: #4b99b5;
-  text-decoration: none;
-  display: block;
-  transition:0.3s;
-}
-.header-nav a:hover{
-  background-color:#008ec2;
-  color:#fff;
-  text-decoration:none;
-}
-
-.header-nav-btn{
-  font-size: 14px;
-  padding: 10px 20px;
-  color: #fff;
-  background: #4b99b5;
-  text-decoration: none;
-  transition:0.3s;
-}
-.header-nav-btn:hover{
-  background-color:#008ec2;
-  color:#fff;
-  text-decoration:none;
-  cursor:pointer; /* カーソルを手にする */
-}
-/* フッターナビ */
-div#Navbar1 {
-  display: none;
-}
 /*   記事ページ
 -------------------------------------------- */
 .main-outer{
@@ -321,45 +224,18 @@ p.kousin a {
 }
 /*   トップページ、カテゴリ、アーカイブの記事一覧
 --------------------------------------------------------- */
-.article-list-link{
-  text-decoration:none !important;
-}
-.article-list-link:hover{
-  text-decoration:none !important;
-}
 .article-list{
-  padding-bottom:30px;
-  padding-top:10px;
-  border-bottom:1px dashed #666;
-  float:none;
-  transition:0.3s;
-}
-.article-list:hover{
   background-color:#222222; /* DarkSet */
 }
-.article-list img{
-  float:left;
-  width:250px;
-  height:167px;
-  padding-right:10px;
-  object-fit: cover;
+.article-list:hover{
+  background-color:#444444; /* DarkSet */
 }
 /*  記事一覧のタイトル  */
 
-.article-list-title{
-	overflow:hidden;
-}
 .article-list-title h2{
-  color:#bbb; /* DarkSet */
-  color:#fecb17;
+  color:#fecb17; /* DarkSet */
   font-size:16px;
   margin-bottom:2px; /* 10/19追加 */
-}
-article-list-link{
-  color:#000;
-}
-.article-list-link:hover{
-  text-decoration:none;
 }
 /*記事一覧の公開日、カテゴリ名  */
 .snippet{
@@ -373,6 +249,8 @@ article-list-link{
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
+  overflow: hidden;        /* はみ出た部分を隠す */
+  text-overflow: ellipsis; /* 三点リーダー(...)で省略 */
 }
 .post-timestamp {
   font-size:12px !important;
@@ -434,11 +312,6 @@ a.taglink:hover{color:white;background:#008ec2;
 .breadcrumb  li:after {
   content: " > ";
 }
-/*--- 囲みタイプは当面使わないのでコメントアウト ---
-.breadcrumb {
-  padding:5px 5px 5px 15px!important;margin:0 0 15px;border:1px solid #E0E0E0;-moz-box-shadow:0 2px 4px #E7E7E7;-webkit-box-shadow:0 2px 4px #E7E7E7;font-size:80%;box-shadow:0 2px 4px #E7E7E7;background-color:white;overflow:hidden
-}
----*/
 /*   関連記事 
 -------------------------------------- */
 #related-posts{
@@ -513,13 +386,10 @@ p.st-post-footer-buttons {
 }
 /*    ページナビゲーション
 ------------------------------------------------ */
-#blog-pagerX{clear:both;margin:30px auto;text-align:center; padding: 7px;}
-.blog-pagerX {background: none;}
-.displaypageNum a,.showpage a,.pagecurrent{font-size: 14px;padding: 5px 12px;margin-right:5px; color: #ddd; background-color:#333;}
-.displaypageNum a:hover,.showpage a:hover, .pagecurrent{background:#359BED;text-decoration:none;color: #fff;}
-#blog-pagerX .pagecurrent{font-weight:bold;color: #fff;background:#359BED;}
- .showpageOf{display:none!important}
-#blog-pagerX .pages{border:none;}
+.displaypageNum, .showpage, .pagecurrent {font-size: 14px;padding: 5px 12px;margin-right:5px; background-color:#333; text-decoration:none; color: #fff;}
+.displaypageNum a:link, .showpage a:link {font-size: 14px;padding: 5px 12px;margin-right:5px; background-color:#333; text-decoration:none; color: #fff;}
+.displaypageNum a:hover, .showpage a:hover, .pagecurrent {font-size: 14px;padding: 5px 12px;margin-right:5px; background:#359BED; text-decoration:none; color: #fff;}
+.showpageOf{display:none!important}
 
 /*   サイドバー
 -------------------------------------- */
@@ -827,18 +697,6 @@ nav{
   width:auto;
   display:none;
 }
-.article-list-link{
-  text-decoration:none !important;
-}
-.article-list-link:hover{
-  text-decoration:none !important;
-}
-.article-list {
-  padding:0px 5px 10px 10px !important;
-}
-.article-tag{
-    font-size:8px;
-}
 .article-thumbnail img{
   width:150px !important;
   height:100px !important;
@@ -848,14 +706,6 @@ nav{
 }
 .post-box{
   text-align:center;
-}
-.article-list{
-  width:auto;
-  float:none;
-}
-.article-list-title{
-	top:1px;
-	left:170px;
 }
 .article-list-title h2{
   font-size:16px;
@@ -921,12 +771,6 @@ img{
   border-right:none !important;
   padding-right:initial;
   padding-right:auto;
-}
-.article-list{
-  border:none;
-  margin-bottom:0;
-  padding:10px;
-  box-sizing:border-box;
 }
 @media screen and (max-width: 790px){
 .post-outer{
