@@ -1,6 +1,6 @@
 body{
   font-family:"meiryo","メイリオ","ＭＳ Ｐゴシック",sans-serif;
-  background-color: #f1f1f1;  /* LightSet 全体の背景色  */
+  background-color: #e8e8e8;  /* LightSet 全体の背景色  */
   color:#000000; /* LightSet 全体のフォント色  */
   margin:0;
   font-size:16px;
@@ -493,7 +493,7 @@ p.st-post-footer-buttons {
 }
 /* 返信コメントの背景色 */
 .comment-replies{
-  background-color: #f1f1f1; /* LightSet */
+  background-color: #e8e8e8; /* LightSet */
 }
 /* コメント欄内右側余白 */
 .comment-content{
