@@ -509,6 +509,10 @@ p.st-post-footer-buttons {
 #comment-post-message {
   cursor:pointer;
 }
+/* コメントエディタ */
+#comment-form {
+  background-color: #e8e8e8; /* DarkSet */
+}
 /*    ページナビゲーション
 ------------------------------------------------ */
 .displaypageNum, .showpage, .pagecurrent {font-size: 14px;padding: 5px 12px;margin-right:5px; background-color:#fff; text-decoration:none; color: #000;}
