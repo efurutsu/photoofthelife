@@ -225,7 +225,7 @@ p.kousin a {
 /*   トップページ、カテゴリ、アーカイブの記事一覧
 --------------------------------------------------------- */
 .article-list{
-  background-color:#ffffff; /* LightSet */
+  background-color:#f4f4f4; /* LightSet */
 }
 .article-list:hover{
   background-color:#d9d9d9; /* LightSet */
