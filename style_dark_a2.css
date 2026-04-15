@@ -332,7 +332,7 @@ p.kousin a {
   padding-top:5px;
   border-bottom:1px dashed #666;
   float:none;
-  background-color:#222222; /* LightSet */
+  background-color:#222222; /* DarkSet */
   transition:0.3s;
 }
 .article-list:hover{

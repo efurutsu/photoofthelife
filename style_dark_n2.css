@@ -332,11 +332,11 @@ p.kousin a {
   padding-top:5px;
   border-bottom:1px dashed #666;
   float:none;
-  background-color:#222222; /* LightSet */
+  background-color:#222222; /* DarkSet */
   transition:0.3s;
 }
 .article-list:hover{
-  background-color:#222222; /* DarkSet */
+  background-color:#444444; /* DarkSet */
 }
 .article-list img{
   float:left;
@@ -351,8 +351,7 @@ p.kousin a {
   overflow:hidden;
 }
 .article-list-title h2{
-  color:#bbb; /* DarkSet */
-  color:#fecb17;
+  color:#fecb17; /* DarkSet */
   font-size:16px;
   margin-bottom:2px; /* 10/19’Ç‰Á */
 }
