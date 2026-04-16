@@ -447,6 +447,9 @@ p.st-post-footer-buttons {
 .popular-post ul li a {
   color: #bbb; /* DarkSet */
 }
+.jump2imageUrlback {
+  background-color:#222222; /* DarkSet */
+}
 .jump2imageUrlback:hover {
   background-color:#444444; /* DarkSet */
 }

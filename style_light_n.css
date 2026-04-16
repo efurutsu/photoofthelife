@@ -447,6 +447,9 @@ p.st-post-footer-buttons {
 .popular-post ul li a {
   color: #555; /* LightSet */
 }
+.jump2imageUrlback {
+  background-color:#f4f4f4; /* LightSet */
+}
 .jump2imageUrlback:hover {
   background-color:#d9d9d9; /* LightSet */
 }
