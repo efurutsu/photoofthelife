@@ -320,6 +320,7 @@ a.taglink:hover{color:white;background:#008ec2;
 }
 #related-posts a{
   color:#bbb; /* DarkSet ‚±‚±‚ÌF‚ğ #666 ‚©‚ç #bbb ‚ÉF•Ï‚¦‚½ */
+  background-color:#222222; /* DarkSet */
   transition:0.3s;
 }
 #related-posts a:hover{

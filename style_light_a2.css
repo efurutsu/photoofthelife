@@ -320,6 +320,7 @@ a.taglink:hover{color:white;background:#008ec2;
 }
 #related-posts a{
   color:#555; /* LightSet */
+  background-color:#f4f4f4; /* LightSet */
   transition:0.3s;
 }
 #related-posts a:hover{
