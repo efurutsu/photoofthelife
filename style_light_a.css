@@ -444,10 +444,14 @@ p.st-post-footer-buttons {
 }
 /*   êlãCãLéñ    
 --------------------------------------- */
-.jump2imageUrlback a {
+.jump2imageUrlback {
+  color: #555; /* LightSet */
+  text-decoration: none;
   background-color:#f4f4f4; /* LightSet */
 }
-.jump2imageUrlback:hover a {
+.jump2imageUrlback:hover {
+  color: #000; /* LightSet */
+  text-decoration: none;
   background-color:#d9d9d9; /* LightSet */
 }
 .jump2imageUrl img {
