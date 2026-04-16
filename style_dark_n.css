@@ -444,7 +444,7 @@ p.st-post-footer-buttons {
 }
 /*   êlãCãLéñ    
 --------------------------------------- */
-.popular-post ul li a {
+.popular-post:hover ul li {
   color: #bbb; /* DarkSet */
 }
 .jump2imageUrlback {
