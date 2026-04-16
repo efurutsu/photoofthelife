@@ -456,6 +456,9 @@ p.st-post-footer-buttons {
 .jump2imageUrlback:hover {
   background-color:#d9d9d9; /* LightSet */
 }
+.jump2imageUrl img {
+  filter: brightness(100%);
+}
 .jump2imageUrl:hover img {
   filter: brightness(80%);
 }

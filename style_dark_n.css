@@ -456,8 +456,11 @@ p.st-post-footer-buttons {
 .jump2imageUrlback:hover {
   background-color:#444444; /* DarkSet */
 }
+.jump2imageUrl img {
+  filter: brightness(80%);
+}
 .jump2imageUrl:hover img {
-  filter: brightness(120%);
+  filter: brightness(100%);
 }
 /*   アドセンス
 --------------------------------------- */  
