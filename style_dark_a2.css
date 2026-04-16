@@ -233,8 +233,6 @@ p.kousin a {
 /*  記事一覧のタイトル  */
 .article-list-title h2{
   color:#fecb17; /* DarkSet */
-  font-size:16px;
-  margin-bottom:2px; /* 10/19追加 */
 }
 /*  記事一覧の公開日、カテゴリ名  */
 .snippet{
