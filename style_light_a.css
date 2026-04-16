@@ -444,16 +444,10 @@ p.st-post-footer-buttons {
 }
 /*   êlãCãLéñ    
 --------------------------------------- */
-.popular-post li a {
-  color: #555; /* LightSet */
-}
-.popular-post:hover li a {
-  color: #000; /* LightSet */
-}
-.jump2imageUrlback {
+.jump2imageUrlback a {
   background-color:#f4f4f4; /* LightSet */
 }
-.jump2imageUrlback:hover {
+.jump2imageUrlback:hover a {
   background-color:#d9d9d9; /* LightSet */
 }
 .jump2imageUrl img {

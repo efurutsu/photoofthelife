@@ -444,16 +444,12 @@ p.st-post-footer-buttons {
 }
 /*   êlãCãLéñ    
 --------------------------------------- */
-.popular-post li a {
+.jump2imageUrlback a {
   color: #bbb; /* DarkSet */
-}
-.popular-post:hover li a {
-  color: #fff; /* DarkSet */
-}
-.jump2imageUrlback {
   background-color:#222222; /* DarkSet */
 }
-.jump2imageUrlback:hover {
+.jump2imageUrlback:hover a {
+  color: #fff; /* DarkSet */
   background-color:#444444; /* DarkSet */
 }
 .jump2imageUrl img {
