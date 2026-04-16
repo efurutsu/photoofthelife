@@ -316,6 +316,7 @@ a.taglink:hover{color:white;background:#008ec2;
 -------------------------------------- */
 #related-posts{
   width:auto;
+  background-color:#222222; /* DarkSet */
 }
 #related-posts a{
   color:#bbb; /* DarkSet ‚±‚±‚ÌF‚ğ #666 ‚©‚ç #bbb ‚ÉF•Ï‚¦‚½ */
