@@ -457,10 +457,10 @@ p.st-post-footer-buttons {
   background-color:#444444; /* DarkSet */
 }
 .jump2imageUrl img {
-  filter: brightness(80%);
+  filter: brightness(90%);
 }
 .jump2imageUrl:hover img {
-  filter: brightness(100%);
+  filter: brightness(110%);
 }
 /*   アドセンス
 --------------------------------------- */  
