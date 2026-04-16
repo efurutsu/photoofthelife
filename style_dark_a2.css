@@ -231,16 +231,67 @@ p.kousin a {
   background-color:#444444; /* DarkSet */
 }
 /*  記事一覧のタイトル  */
+
 .article-list-title h2{
   color:#fecb17; /* DarkSet */
+  font-size:16px;
+  margin-bottom:2px; /* 10/19追加 */
 }
 /*  記事一覧の公開日、カテゴリ名  */
 .snippet{
+  font-size:13px;
+  padding:0 !important;
   color:#bbb; /* DarkSet */
+  margin-top:5px !important;
+  margin-bottom: 5px;
+  line-height:1.4em !important;
+  word-break:break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;        /* はみ出た部分を隠す */
+  text-overflow: ellipsis; /* 三点リーダー(...)で省略 */
 }
 .post-timestamp {
+  font-size:12px !important;
+  opacity:0.7;
   color:#bbb; /* DarkSet */
+  padding-bottom:2px !important;
+  margin-left: 0; /* 明確にゼロ指定しないとIEでの時計マーク表示が陥没する */
+  margin-right: 5px !important;
+  margin-top:0;
+  margin-bottom:2px; /* 11/15追加 */
+  display:inline-block;
 }
+.post-tag{
+  font-size:12px !important;
+/*  background: white; */
+  padding:1px 1px !important;
+  margin-top:0px;
+  margin-bottom:2px; /* 10/19追加 */
+  display:inline-block;
+}
+.taglink {
+  display: inline-block;
+  position: relative;
+  height: 20px;/*高さ*/
+  line-height: 20px;/*高さ*/
+  vertical-align: middle;
+  text-align: center;
+  padding: 0px 5px 0 5px;/*文字の余白*/
+  background: #666666;
+  color: #FFF;/*文字色*/
+  box-sizing: border-box;
+  border-radius: 3px;/*角を丸く*/
+  font-size:10px !important;
+  margin: 1px;
+}
+a.taglink:link{color:white;}
+a.taglink:visited{color:white;}
+a.taglink:active{color:white;}
+a.taglink:hover{color:white;background:#008ec2;
+}
+
 /*   パンくずリスト  
 --------------------------------------- */  
 .breadcrumb-wrapper { 
