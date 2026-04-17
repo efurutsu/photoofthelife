@@ -542,7 +542,7 @@ p.st-post-footer-buttons {
 .button-toggle{
   display:none;
 }
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 790px){
   .button-toggle{
     display:block !important;
     width:100%;
@@ -562,7 +562,7 @@ p.st-post-footer-buttons {
 .inner_adsense_phone {
   display:none;
 }
-@media screen and (max-width:1050px) {
+@media screen and (max-width:790px) {
 .inner_adsense_pc {
   display:none;
 }
@@ -603,7 +603,7 @@ p.st-post-footer-buttons {
 
 /*   レスポンシブデザイン
 --------------------------------------------------- */
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 790px){
 
 .content-wrapper{
   width:auto;
