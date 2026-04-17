@@ -316,11 +316,9 @@ a.taglink:hover{color:white;background:#008ec2;
 -------------------------------------- */
 #related-posts{
   width:auto;
-  background-color:#f4f4f4; /* LightSet */
 }
 #related-posts a{
   color:#555; /* LightSet */
-  background-color:#f4f4f4; /* LightSet */
   transition:0.3s;
 }
 #related-posts a:hover{
@@ -544,7 +542,7 @@ p.st-post-footer-buttons {
 .button-toggle{
   display:none;
 }
-@media screen and (max-width: 790px){
+@media screen and (max-width: 1050px){
   .button-toggle{
     display:block !important;
     width:100%;
@@ -564,7 +562,7 @@ p.st-post-footer-buttons {
 .inner_adsense_phone {
   display:none;
 }
-@media screen and (max-width:790px) {
+@media screen and (max-width:1050px) {
 .inner_adsense_pc {
   display:none;
 }
@@ -605,7 +603,7 @@ p.st-post-footer-buttons {
 
 /*   レスポンシブデザイン
 --------------------------------------------------- */
-@media screen and (max-width: 790px){
+@media screen and (max-width: 1050px){
 
 .content-wrapper{
   width:auto;
