@@ -736,11 +736,9 @@ img{
 .post-outer{
   border:1px solid #e5e5e5; /* LightSet */
   box-shadow:1px 1px 2px rgba(0,0,0, .4); /* ‰e */
-  margin-bottom:10px;
 }
 @media screen and (max-width: 790px){
   .post-outer{
-    margin-bottom:10px;
     box-shadow:none !important;
   }
 }
