@@ -198,8 +198,8 @@ blockquote {
   margin:0;
 }
 .post-outer{
-  border:1px solid #222222; /* DarkSet */
-  box-shadow:1px 1px 2px rgba(20,20,20, .4); /* ‰e */
+  border:1px solid #444444; /* DarkSet */
+  box-shadow:1px 1px 2px rgba(68,68,68, .4); /* ‰e */
 }
 .post-outer img{  
   max-width:100%;  /* ‹L–“à‚Ì‰æ‘œ‚ğ‚Í‚İo‚³‚¹‚È‚¢ */
@@ -728,9 +728,6 @@ img{
   width:auto;
   margin:0;
   bottom:0;
-}
-.post-outer{
-  box-shadow:none !important;
 }
 
 }
