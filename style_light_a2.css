@@ -197,6 +197,10 @@ blockquote {
 #main{
   margin:0;
 }
+.post-outer{
+  border:1px solid #404040; /* DarkSet */
+  box-shadow:1px 1px 2px rgba(#40,#40,#40, .4); /* 影 */
+}
 .post-outer img{  
   max-width:100%;  /* 記事内の画像をはみ出させない */
   height:auto;
@@ -658,6 +662,7 @@ nav{
   margin-right:auto;
   border-left:none !important;
   padding-right:none !important;
+  box-shadow:none !important;
 }
 .post-body{
   padding:0 15px;
@@ -724,21 +729,8 @@ img{
   margin:0;
   bottom:0;
 }
-
-}
-
-
-/* アーカイブ・ページの場合 */
-.main-outer{
-  border:none !important;
+.post-outer{
   box-shadow:none !important;
 }
-.post-outer{
-  border:1px solid #e5e5e5; /* LightSet */
-  box-shadow:1px 1px 2px rgba(0,0,0, .4); /* 影 */
-}
-@media screen and (max-width: 790px){
-  .post-outer{
-    box-shadow:none !important;
-  }
+
 }
