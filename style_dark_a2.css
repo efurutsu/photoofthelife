@@ -754,3 +754,20 @@ img{
   font-size:10px !important;
 }
 }
+
+/*  記事中のアドセンス用  */
+.inner_adsense_pc {
+  display:inline-block;
+}
+.inner_adsense_phone {
+  display:none;
+}
+@media screen and (max-width:790px) {
+.inner_adsense_pc {
+  display:none;
+}
+.inner_adsense_phone {
+  display:inline-block;
+}
+}
+
