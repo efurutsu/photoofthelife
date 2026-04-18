@@ -1,5 +1,6 @@
-<b:skin><![CDATA[/*
------------------------------------------------
+<style type='text/css'>
+<![CDATA[
+/*-----------------------------------------------
 Type     : Responsive Blogger Template Style
 Name     : Photo Gallery(Based Porto by Ar-themes)
 Version  : 1.0.0
@@ -510,7 +511,8 @@ footer .footer-rights {
 	left:280px;
 }
 
-]]></b:skin>
+]]>
+</style>
 <style type='text/css'>
 
   /* TOOLTIPS

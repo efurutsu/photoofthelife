@@ -1,96 +1,5 @@
-<b:skin><![CDATA[
-/*-----------------------------------------------
-Type     : Responsive Blogger Template Style
-Name     : Photo Gallery(Based Porto by Ar-themes)
-Version  : 1.0.0
-Author   : Ar-themes
-URL      : http://btemplates.com/author/ar-themes
------------------------------------------------ */
-/* Variable definitions
-=======================
-   <Group description="Page Text" selector="body">
-     <Variable name="body.font" description="Font" type="font"
-         default="normal normal 14px Open Sans" value="normal normal 14px Open Sans"/>
-     <Variable name="body.text.color" description="Text Color" type="color" default="#E3E3E3" value="#E3E3E3"/>
-   </Group>
-
-   <Group description="Backgrounds" selector="body">
-     <Variable name="body.background.color" description="Outer Background" type="color" default="#272727" value="#272727"/>
-     <Variable name="content.background.color" description="Main Background" type="color" default="transparent" value="transparent"/>
-     <Variable name="header.border.color" description="Header Border" type="color" default="#121212" value="#525252"/>
-   </Group>
-
-   <Group description="Links" selector=".container">
-     <Variable name="link.color" description="Link Color" type="color" default="#0072FE" value="#0072FE"/>
-     <Variable name="link.visited.color" description="Visited Color" type="color" default="#0072FE" value="#0072FE"/>
-     <Variable name="link.hover.color" description="Hover Color" type="color" default="#0072FE" value="#0072FE"/>
-   </Group>
-
-   <Group description="Blog Title" selector=".header h1">
-     <Variable name="header.font" description="Font" type="font"
-         default="normal bold 30px Calibri" value="normal bold 30px Calibri"/>
-     <Variable name="header.text.color" description="Title Color" type="color" default="#E3E3E3"  value="#E3E3E3"/>
-   </Group>
-
-   <Group description="Blog Description" selector=".header .description">
-     <Variable name="description.font" description="Font" type="font"
-         default="normal normal 14px Open Sans" value="normal normal 14px Open Sans"/>
-     <Variable name="description.text.color" description="Description Color" type="color"
-         default="#333333"  value="#333333"/>
-   </Group>
-
-   <Group description="Navigation" selector="#navigation">
-     <Variable name="navigation.font" description="Font" type="font"
-         default="normal normal 15px Open Sans" value="normal normal 15px Open Sans"/>
-     <Variable name="navigation.text.color" description="Text Color" type="color"
-         default="#979797"  value="#979797"/>
-     <Variable name="navigation.text.hover.color" description="Hover Text Color" type="color"
-         default="#0372FF"  value="#0372FF"/>
-   </Group>
-
-   <Group description="Icons" selector="#search,#social">
-     <Variable name="icons.color" description="Color" type="color"
-         default="#0072FE"  value="#0072FE"/>
-     <Variable name="icons.hover.color" description="Hover Color" type="color"
-         default="#333333"  value="#333333"/>
-     <Variable name="icons.background.color" description="Background Hover Color" type="color"
-         default="#E1E1E1"  value="#E1E1E1"/>
-   </Group>
-
-   <Group description="Mian Color" selector="div.clearfix">
-     <Variable name="main.color" description="Color" type="color"
-         default="#0072FE"  value="#0072FE"/>
-   </Group>
-
-   <Group description="Footer" selector="footer">
-     <Variable name="footer.text.color" description="Text Color" type="color"
-         default="#E3E3E3"  value="#E3E3E3"/>
-     <Variable name="footer.border.color" description="Border Color" type="color"
-         default="#414141"  value="#414141"/>
-   </Group>
-
-   <Group description="Footer Gadgets" selector="footer .section .widget h2:first-child">
-     <Variable name="footer.gadget.title.font" description="Title Font" type="font"
-         default="normal bold 21px Open Sans" value="normal bold 21px Open Sans"/>
-     <Variable name="footer.gadget.title.color" description="Title Color" type="color"
-         default="#e3e3e3"  value="#e3e3e3"/>
-   </Group>
-
-   <Group description="Error Page Title" selector=".error-title">
-     <Variable name="error.title.font" description="Title Font" type="font"
-         default="normal bold 40px Open Sans" value="normal bold 40px Open Sans"/>
-     <Variable name="error.title.color" description="Title Color" type="color"
-         default="#ff0000"  value="#ff0000"/>
-   </Group>
-
-   <Group description="Error Page Description" selector=".error-description">
-     <Variable name="error.description.font" description="Description Font" type="font"
-         default="normal normal 18px Open Sans" value="normal normal 18px Open Sans"/>
-     <Variable name="error.description.color" description="Description Color" type="color"
-         default="#e3e3e3"  value="#e3e3e3"/>
-   </Group>
-
- */
+<style type='text/css'>
+<![CDATA[
 
 /* Global
 ----------------------------------------------- */
@@ -98,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  background-color: $(body.background.color);
-  font: $(body.font);
-  color: $(body.text.color);
+  background-color: #272727;
+  font: normal normal 14px Open Sans;
+  color: #E3E3E3;
 }
 .container {
   margin-left: auto;
@@ -108,7 +17,7 @@ body {
   max-width: 850px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: $(content.background.color);
+  background-color: transparent;
 }
 .clearfix:after {
   clear: both;
@@ -125,13 +34,13 @@ body {
 }
 a {
   text-decoration: none;
-  color: $(link.color);
+  color: #0072FE;
 }
 a:visited {
-  color: $(link.visited.color);
+  color: #0072FE;
 }
 a:hover {
-  color: $(link.hover.color);
+  color: #0072FE;
 }
 ul {
   list-style-type: none;
@@ -179,7 +88,7 @@ header {
   text-align: center;
   margin: 0;
   padding: 10px 0;
-  border-bottom: 3px solid $(header.border.color);
+  border-bottom: 3px solid #525252;
 }
 
 /* LOGO
@@ -189,13 +98,13 @@ header {
 }
 .header h1.title {
   margin: 0;
-  font: $(header.font);
-  color: $(header.text.color);
+  font: normal bold 30px Calibri;
+  color: #E3E3E3;
 }
 .header .titlewrapper, .header .descriptionwrapper {
   display: inline-block;
-  font: $(description.font);
-  color: $(description.text.color);
+  font: normal normal 14px Open Sans;
+  color: #333333;
 }
 
 /* NAVIGATION
@@ -204,7 +113,7 @@ header {
   width: 100%;
 }
 #navigation a:visited {
-  color: $(navigation.text.color);
+  color: #979797;
   text-decoration: none;
 }
 nav ul {
@@ -215,7 +124,7 @@ nav ul li {
   display: inline-block;
 }
 nav ul li a {
-  font: $(navigation.font);
+  font: normal normal 15px Open Sans;
   text-shadow:
     0.3px 0.3px 0,
     0.3px -0.3px 0,
@@ -225,14 +134,14 @@ nav ul li a {
     0 0.3px 0,
     -0.3px 0 0,
     0 -0.3px 0; /* ‘¾•¶Žš‰»‚·‚é */
-  color: $(navigation.text.color);
+  color: #979797;
   padding: 10px 0;
   border-bottom: 3px solid transparent;
   margin: 0px 5px;
 }
 .active a, nav ul li:hover a {
-  color: $(navigation.text.hover.color);
-  border-bottom: 3px solid $(navigation.text.hover.color);
+  color: #0372FF;
+  border-bottom: 3px solid #0372FF;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
@@ -247,7 +156,7 @@ nav li ul {
   text-align: left;
   background-color: #fff;
   border: 1px solid #eee;
-  border-top: 3px solid $(navigation.text.hover.color);
+  border-top: 3px solid #0372FF;
   z-index: 99;
 /*
   min-width: 165px;
@@ -258,25 +167,25 @@ nav li ul li {
   display: block;
 }
 nav li ul li a {
-  color:  $(navigation.text.color) !important;
+  color:  #979797 !important;
   margin: 0 5px;
   display: block;
   padding: 10px 0;
   border-bottom: 1px solid #eee !important;
 }
 nav li ul li a:hover {
-  color: $(navigation.text.hover.color) !important;
+  color: #0372FF !important;
   border-bottom-width: 1px !important;
 }
 nav li ul li:last-child a, nav .sub li:last-child a:hover {
   border-bottom-width: 0 !important;
 }
 .marrow {
-  color: $(navigation.text.color);
+  color: #979797;
   margin-left: 5px;
 }
 nav ul li:hover .marrow {
-  color: $(navigation.text.hover.color);
+  color: #0372FF;
 }
 .m-button {
   display: none;
@@ -290,13 +199,13 @@ nav ul li:hover .marrow {
   position: absolute;
   right: 0px;
   cursor: pointer;
-  color: $(navigation.text.color);
+  color: #979797;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 .m-button i:hover {
-  color: $(navigation.text.hover.color);
+  color: #0372FF;
 }
 
 /* SEARCH
@@ -309,15 +218,15 @@ nav ul li:hover .marrow {
   background-color: #fff;
   height: 30px;
   width: 208px;
-  border: 2px solid $(header.border.color);
+  border: 2px solid #525252;
   padding: 0 10px;
 }
 .s-submit {
   height: 33px;
   width: 35px;
-  color: $(icons.hover.color);
+  color: #333333;
   background-color: #FFF;
-  border: 2px solid $(header.border.color);
+  border: 2px solid #525252;
   cursor: pointer;
   padding: 0px 10px;
   display: inline-block;
@@ -328,8 +237,8 @@ nav ul li:hover .marrow {
   content: "\f002";
 }
 .s-submit:hover {
-  color: $(icons.color);
-  background-color: $(icons.background.color);
+  color: #0072FE;
+  background-color: #E1E1E1;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
@@ -389,7 +298,7 @@ nav ul li:hover .marrow {
 }
 .overlay i {
   line-height: inherit;
-  color: $(main.color);
+  color: #0072FE;
 }
 .loader {
   display: none !important;
@@ -422,7 +331,7 @@ nav ul li:hover .marrow {
   transition: all 0.5s ease 0s;
 }
 .trigger a:hover {
-  color: $(main.color);
+  color: #0072FE;
   border-color: #E1E1E1;
   background-color: #FFF;
 }
@@ -430,60 +339,60 @@ nav ul li:hover .marrow {
   padding: 0;
 }
 [data-title]:before {
-  color: $(main.color);
-  border-bottom: 3px solid $(main.color);
+  color: #0072FE;
+  border-bottom: 3px solid #0072FE;
 }
 [data-title]:after {
-  border-top: 5px solid $(main.color);
+  border-top: 5px solid #0072FE;
 }
 .post, .post-pager, #comments {
-  border-top: 3px solid $(main.color) !important;
+  border-top: 3px solid #0072FE !important;
 }
 h3.post-title span {
-  border-bottom: 3px solid $(main.color);
+  border-bottom: 3px solid #0072FE;
 }
 .status-msg-wrap {
-  border-left: 4px solid $(main.color) !important;
+  border-left: 4px solid #0072FE !important;
 }
 .list-label-widget-content li span {
-  color: $(main.color);
+  color: #0072FE;
 }
 .list-label-widget-content li span:first-child {
-  border: 1px solid $(main.color);
+  border: 1px solid #0072FE;
 }
 .list-label-widget-content li a:hover, #footer-nav .list-label-widget-content li a:hover {
-  background-color: $(main.color);
+  background-color: #0072FE;
 }
 .label-size a:hover, .label-size:hover .label-count, .label-size:hover a {
-  background-color: $(main.color);
+  background-color: #0072FE;
 }
 .cloud-label-widget-content .label-size span:first-child, .cloud-label-widget-content .label-size span:first-child span:nth-child(2) {
-  background-color: $(main.color);
+  background-color: #0072FE;
 }
 blockquote:after, #toTop:hover {
-  color: $(main.color);
+  color: #0072FE;
 }
 blockquote {
-  border-left: 3px solid $(main.color) !important;
+  border-left: 3px solid #0072FE !important;
 }
 .error-description .error-line2 a:hover {
-  background-color: $(main.color);
-  border: 2px solid $(main.color);
+  background-color: #0072FE;
+  border: 2px solid #0072FE;
 }
 .error-title {
-  font: $(error.title.font);
-  color: $(error.title.color);
+  font: normal bold 40px Open Sans;
+  color: #ff0000;
 }
 .error-description {
-  font: $(error.description.font);
-  color: $(error.description.color);
+  font: normal normal 18px Open Sans;
+  color: #e3e3e3;
 }
 
 /* FOOTER
 ----------------------------------------------- */
 footer .footer-rights {
   margin-top: 10px;
-  border-top: 3px solid $(footer.border.color);
+  border-top: 3px solid #414141;
   padding: 10px 0;
   text-align: center;
 }
@@ -510,7 +419,9 @@ footer .footer-rights {
 	left:280px;
 }
 
-]]></b:skin>
+]]>
+</style>
+
 <style type='text/css'>
 
   /* TOOLTIPS
@@ -746,7 +657,7 @@ footer .footer-rights {
     position: relative;
     background: none repeat scroll 0% 0% #F9F9F9;
     border: 1px solid #F1F1F1;
-    border-left: 3px solid $(main.color);
+    border-left: 3px solid #0072FE;
     padding: 20px 20px 20px 75px;
     color: #A7A7A8;
     font-style: italic;
@@ -851,7 +762,7 @@ footer .footer-rights {
     float: left;
     text-align: left;
     width: 46%;
-    color: $(link.color);
+    color: #0072FE;
     text-decoration: none;
   }
   .center-back-link {
@@ -891,7 +802,7 @@ footer .footer-rights {
     float: right;
     text-align: right;
     width: 46%;
-    color: $(link.color);
+    color: #0072FE;
     text-decoration: none;
   }
   .post-pager i {
