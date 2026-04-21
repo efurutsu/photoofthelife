@@ -4,6 +4,9 @@ body {
   background-color: #272727 !important;
   color: #E3E3E3;
 }
+.container {
+  background-color: #272727 !important;
+}
 a {
   color: #0072FE !important;
 }
