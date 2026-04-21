@@ -50,76 +50,19 @@ nav li ul {
 nav li ul li a {
   color:  #979797 !important;
 }
-nav li ul li a:hover {
-  color: #0372FF !important;
-}
 .marrow {
   color: #979797;
-}
-nav ul li:hover .marrow {
-  color: #0372FF;
 }
 .m-button i {
   color: #979797;
 }
-  color: #0372FF;
-}
 
 /* MAIN CONTENT
 ----------------------------------------------- */
-.overlay i {
-  color: #0072FE;
-}
 .trigger a {
   border: 2px solid #E1E1E1;
   background-color: #E1E1E1;
   color: #9D9D9D;
-}
-.trigger a:hover {
-  color: #0072FE;
-  border-color: #E1E1E1;
-  background-color: #FFF;
-}
-[data-title]:before {
-  color: #0072FE;
-  border-bottom: 3px solid #0072FE;
-}
-[data-title]:after {
-  border-top: 5px solid #0072FE;
-}
-.post, .post-pager, #comments {
-  border-top: 3px solid #0072FE !important;
-}
-h3.post-title span {
-  border-bottom: 3px solid #0072FE;
-}
-.status-msg-wrap {
-  border-left: 4px solid #0072FE !important;
-}
-.list-label-widget-content li span {
-  color: #0072FE;
-}
-.list-label-widget-content li span:first-child {
-  border: 1px solid #0072FE;
-}
-.list-label-widget-content li a:hover, #footer-nav .list-label-widget-content li a:hover {
-  background-color: #0072FE;
-}
-.label-size a:hover, .label-size:hover .label-count, .label-size:hover a {
-  background-color: #0072FE;
-}
-.cloud-label-widget-content .label-size span:first-child, .cloud-label-widget-content .label-size span:first-child span:nth-child(2) {
-  background-color: #0072FE;
-}
-blockquote:after, #toTop:hover {
-  color: #0072FE;
-}
-blockquote {
-  border-left: 3px solid #0072FE !important;
-}
-.error-description .error-line2 a:hover {
-  background-color: #0072FE;
-  border: 2px solid #0072FE;
 }
 .error-title {
   color: #ff0000;
@@ -134,9 +77,6 @@ footer .footer-rights {
   border-top: 3px solid #414141;
 }
 
-</style>
-
-<style type='text/css'>
   /* LABELS
   ----------------------------------------------- */
   .list-label-widget-content li a {
@@ -187,7 +127,6 @@ footer .footer-rights {
     color: #A7A7A8;
   }
 
-</style>
 <b:if cond='data:blog.pageType == &quot;item&quot;'><style>
   .post {
     background-color: #333;
