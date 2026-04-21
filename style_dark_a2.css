@@ -68,7 +68,7 @@ blockquote {
 ----------------------------------------------- */
 .main-outer h1{
   font-size:20px;
-  color:#fecb17;
+  color:#fecb17;  /* DarkSet */
   line-height:1.6em;
   margin-bottom:30px;
 }
@@ -459,10 +459,10 @@ p.st-post-footer-buttons {
   background-color:#444444; /* DarkSet */
 }
 .jump2imageUrl img {
-  filter: brightness(90%);
+  filter: brightness(90%);  /* DarkSet */
 }
 .jump2imageUrl:hover img {
-  filter: brightness(110%);
+  filter: brightness(110%);  /* DarkSet */
 }
 /*   アドセンス
 --------------------------------------- */  
