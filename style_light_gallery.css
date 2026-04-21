@@ -56,6 +56,13 @@ nav li ul li a {
 
 /* MAIN CONTENT
 ----------------------------------------------- */
+.post {
+  background-color: #ffffff !important;
+  border: 1px solid #eee !important;
+}
+.post-body .post-body .tr-caption-container,
+  background-color: #ffffff;
+}
 .trigger a {
   border: 2px solid #E1E1E1;
   background-color: #E1E1E1;
@@ -129,10 +136,6 @@ footer .footer-rights {
 
   /* POST PAGER
   ----------------------------------------------- */
-  .post {
-    background-color: #FFF !important;
-    border: 1px solid #eee !important;
-  }
   .post-pager {
     background-color: #FFF;
     border: 1px solid #EEE;
