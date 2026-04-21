@@ -127,7 +127,7 @@ footer .footer-rights {
     color: #A7A7A8;
   }
 
-<b:if cond='data:blog.pageType == &quot;item&quot;'><style>
+/* <b:if cond='data:blog.pageType == &quot;item&quot;'><style> */
   .post {
     background-color: #333;
     border: 1px solid #222;
@@ -145,8 +145,8 @@ footer .footer-rights {
   .right-older-link {
     color: #0072FE;
   }
-</style></b:if>
-<b:if cond='data:blog.pageType != &quot;index&quot;'><style>
+/* </style></b:if> */
+/* <b:if cond='data:blog.pageType != &quot;index&quot;'><style> */
   .date-header {
     background-color: #111;
     border: 1px solid #eee;
@@ -157,8 +157,8 @@ footer .footer-rights {
   .post-body {
     border-bottom: 3px solid #555;
   }
-</style></b:if>
-<b:if cond='data:blog.pageType == &quot;static_page&quot;'><style>
+/* </style></b:if> */
+/* <b:if cond='data:blog.pageType == &quot;static_page&quot;'><style> */
   .post.hentry {
     background-color: #333;
     border: 1px solid #222;
@@ -169,9 +169,9 @@ footer .footer-rights {
   .post-body {
     border-bottom: 3px solid #333;
   }
-</style></b:if>
-<b:if cond='data:blog.pageType == &quot;error_page&quot;'><style>
+/* </style></b:if> */
+/* <b:if cond='data:blog.pageType == &quot;error_page&quot;'><style> */
   .error-description .error-line2 a:hover {
     color: #fff;
   }
-</style></b:if>
+/* </style></b:if> */
