@@ -132,7 +132,7 @@ footer .footer-rights {
 
 /* <b:if cond='data:blog.pageType == &quot;item&quot;'><style> */
   .post {
-    background-color: #333;
+    background-color: #303030;
     border: 1px solid #222;
   }
 
@@ -143,14 +143,8 @@ footer .footer-rights {
     border: 1px solid #222;
   }
   .post-pager {
-    background-color: #333;
+    background-color: #303030;
     border: 1px solid #222;
-  }
-  .left-newer-link {
-    color: #0072FE;
-  }
-  .right-older-link {
-    color: #0072FE;
   }
 /* </style></b:if> */
 /* <b:if cond='data:blog.pageType != &quot;index&quot;'><style> */
@@ -167,14 +161,14 @@ footer .footer-rights {
 /* </style></b:if> */
 /* <b:if cond='data:blog.pageType == &quot;static_page&quot;'><style> */
   .post.hentry {
-    background-color: #333;
+    background-color: #303030;
     border: 1px solid #222;
   }
   .post-title {
-    border-bottom: 3px solid #333;
+    border-bottom: 3px solid #303030;
   }
   .post-body {
-    border-bottom: 3px solid #333;
+    border-bottom: 3px solid #303030;
   }
 /* </style></b:if> */
 /* <b:if cond='data:blog.pageType == &quot;error_page&quot;'><style> */
