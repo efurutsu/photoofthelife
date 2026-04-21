@@ -2,10 +2,7 @@
 ----------------------------------------------- */
 body {
   background-color: #272727 !important;
-  color: #E3E3E3;
-}
-.container {
-  background-color: #272727 !important;
+  color: #E3E3E3 !important;
 }
 a {
   color: #0072FE !important;
@@ -133,8 +130,8 @@ footer .footer-rights {
   /* POST PAGER
   ----------------------------------------------- */
   .post {
-    background-color: #303030;
-    border: 1px solid #222;
+    background-color: #303030 !important;
+    border: 1px solid #222 !important;
   }
   .post-pager {
     background-color: #303030;

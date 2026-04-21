@@ -1,34 +1,31 @@
 /* Global
 ----------------------------------------------- */
 body {
-  background-color: #F7F7F7;
-  color: #333333;
-}
-.container {
-  background-color: transparent;
+  background-color: #F7F7F7 !important;
+  color: #333333 !important;
 }
 a {
-  color: #0072FE;
+  color: #0072FE; !important;
 }
 a:visited {
-  color: #0072FE;
+  color: #0072FE; !important;
 }
 a:hover {
-  color: #0072FE;
+  color: #0072FE; !important;
 }
 /* HEADER
 ----------------------------------------------- */
 header {
-  border-bottom: 3px solid #E2E2E2;
+  border-bottom: 3px solid #E2E2E2 !important;
 }
 
 /* LOGO
 ----------------------------------------------- */
 .header h1.title {
-  color: #333333;
+  color: #333333 !important;
 }
 .header .titlewrapper, .header .descriptionwrapper {
-  color: #333333;
+  color: #333333 !important;
 }
 
 /* NAVIGATION
@@ -133,8 +130,8 @@ footer .footer-rights {
   /* POST PAGER
   ----------------------------------------------- */
   .post {
-    background-color: #FFF;
-    border: 1px solid #eee;
+    background-color: #FFF !important;
+    border: 1px solid #eee !important;
   }
   .post-pager {
     background-color: #FFF;
@@ -166,5 +163,5 @@ footer .footer-rights {
 
 
 #loading-wrapper {
-    background-color: #272727; /* îwåiêF */
+    background-color: #ffffff; /* îwåiêF */
 }
