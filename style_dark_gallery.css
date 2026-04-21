@@ -1,33 +1,31 @@
-<style type='text/css'>
 /* Global
 ----------------------------------------------- */
 body {
-  background-color: #272727;
+  background-color: #272727 !important;
   color: #E3E3E3;
 }
 a {
-  text-decoration: none;
-  color: #0072FE;
+  color: #0072FE !important;
 }
 a:visited {
-  color: #0072FE;
+  color: #0072FE !important;
 }
 a:hover {
-  color: #0072FE;
+  color: #0072FE !important;
 }
 /* HEADER
 ----------------------------------------------- */
 header {
-  border-bottom: 3px solid #525252;
+  border-bottom: 3px solid #525252 !important;
 }
 
 /* LOGO
 ----------------------------------------------- */
 .header h1.title {
-  color: #E3E3E3;
+  color: #E3E3E3 !important;
 }
 .header .titlewrapper, .header .descriptionwrapper {
-  color: #333333;
+  color: #333333 !important;
 }
 
 /* NAVIGATION
