@@ -1,7 +1,7 @@
 /* Content
 ----------------------------------------------- */
 body {
-  color: #666666;
+  color: #666666 !important;
   background: #e7e7e7;
 }
 
@@ -14,7 +14,7 @@ a:visited {
 }
 
 a:hover {
-  color: #33aaff;
+  color: #33aaff !important;
 }
 
 .body-fauxcolumn-outer .fauxcolumn-inner {
@@ -32,7 +32,7 @@ a:hover {
 }
 
 .Header h1 {
-  color: #000000;
+  color: #000000 !important;
   text-shadow: 0 0 0 rgba(0, 0, 0, .2);
 }
 
@@ -42,13 +42,13 @@ a:hover {
 }
 
 .Header .description {
-  color: #000000;
+  color: #000000 !important;
 }
 
 /* Tabs
 ----------------------------------------------- */
 .tabs-inner .section:first-child {
-  border-top: 0 solid #dddddd;
+/*  border-top: 0 solid #dddddd !important; */
 }
 
 .tabs-inner .widget ul {
@@ -57,19 +57,19 @@ a:hover {
 }
 
 .tabs-inner .widget ul {
-  color: #000000;
+  color: #000000 !important;
 /*  border-$startSide: 1px solid #e7e7e7; */
 /*  border-$endSide: 1px solid #dddddd; */
 }
 .tabs-inner .widget li a {
-  color: #000000;
+  color: #000000 !important;
 /*  border-$startSide: 1px solid #e7e7e7; */
 /*  border-$endSide: 1px solid #dddddd; */
 }
 
 .tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
-  color: #000000;
-  background-color: #eeeeee;
+  color: #000000 !important;
+  background-color: #eeeeee !important;
 }
 
 /* Columns
@@ -103,17 +103,17 @@ div.widget h2.title {
 /* Posts
 ----------------------------------------------- */
 h2.date-header {
-  background-color: #bbbbbb;
+  background-color: #bbbbbb !important;
 }
 
 .date-header span {
-  background-color: #bbbbbb;
+  background-color: #bbbbbb !important;
   color: #ffffff;
 }
 
 .date-header-line-5h {
-  background-color: #bbbbbb;
-  border: 1px solid #bbbbbb;
+  background-color: #bbbbbb !important;
+  border: 1px solid #bbbbbb !important;
 }
 
 .post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
@@ -139,9 +139,9 @@ h2.date-header {
 }
 
 .post-footer {
-  color: #666666;
-  background-color: #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  color: #666666 !important;
+  background-color: #eeeeee !important;
+  border-bottom: 1px solid #eeeeee !important;
 }
 
 #comments .comment-author {
@@ -160,7 +160,7 @@ h2.date-header {
 }
 
 .comments .comment-thread.inline-thread {
-  background-color: #eeeeee;
+  background-color: #eeeeee !important;
 }
 
 .comments .continue {
@@ -179,7 +179,7 @@ h2.date-header {
 
 .blog-pager-older-link, .home-link,
 .blog-pager-newer-link {
-  background-color: #e7e7e7;
+  background-color: #e7e7e7 !important;
 }
 
 .footer-outer {
@@ -189,11 +189,11 @@ h2.date-header {
 
 /* アイコン（クリック対象）アイコンに合わせて調整 */
 .archive-toggle:hover {
-  background-color: #eeeeee;
+  background-color: #eeeeee !important;
 }
 /* アーカイブコンテナの初期状態：隠す */
 .archive-wrapper {
-  background: #e7e7e7;
+  background: #e7e7e7 !important;
   border: 1px solid #ccc;
 }
 /* --- アーカイブのリストタイトル（月） --- */

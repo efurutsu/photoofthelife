@@ -1,7 +1,7 @@
 /* Content
 ----------------------------------------------- */
 body {
-  color: #c6c6c6;
+  color: #c6c6c6 !important;
   background: #181818 !important;
 }
 
@@ -62,7 +62,7 @@ a:hover {
 /*  border-$endSide: 1px solid #dddddd; */
 }
 .tabs-inner .widget li a {
-  color: #e0e0e0 !important !important;
+  color: #e0e0e0 !important;
 /*  border-$startSide: 1px solid #202020; */
 /*  border-$endSide: 1px solid #dddddd; */
 }
