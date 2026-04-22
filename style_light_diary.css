@@ -163,11 +163,6 @@ h2.date-header {
   border-top: 1px dashed #bbbbbb;
 }
 
-
-/* アイコン（クリック対象）アイコンに合わせて調整 */
-.archive-toggle:hover {
-  background-color: #eeeeee !important;
-}
 /* アーカイブコンテナの初期状態：隠す */
 .archive-wrapper {
   background: #e7e7e7 !important;
