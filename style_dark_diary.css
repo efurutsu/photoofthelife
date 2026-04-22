@@ -44,6 +44,12 @@ a:hover {
   color: #e0e0e0 !important;
   background-color: #444444 !important;
 }
+.archive-toggle:hover {
+  background-color: #444444 !important;
+}
+.search-toggle:hover {
+  background-color: #444444 !important;
+}
 
 /* Headings
 ----------------------------------------------- */
