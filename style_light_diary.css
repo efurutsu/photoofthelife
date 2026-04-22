@@ -17,20 +17,8 @@ a:hover {
   color: #33aaff !important;
 }
 
-.body-fauxcolumn-outer .fauxcolumn-inner {
-  background: transparent none repeat scroll top left;
-}
-
-.body-fauxcolumn-outer .cap-top .cap-left {
-  background: transparent none repeat-x scroll top left;
-}
-
 /* Header
 ----------------------------------------------- */
-.header-outer {
-  background: transparent none repeat-x scroll 0 -400px;
-}
-
 .Header h1 {
   color: #000000 !important;
   text-shadow: 0 0 0 rgba(0, 0, 0, .2);
@@ -48,9 +36,6 @@ a:hover {
 /* Tabs
 ----------------------------------------------- */
 .tabs-inner .widget ul {
-  background: transparent none repeat-x scroll 0 -800px;
-}
-.tabs-inner .widget ul {
   color: #000000 !important;
 }
 .tabs-inner .widget li a {
@@ -59,20 +44,6 @@ a:hover {
 .tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
   color: #000000 !important;
   background-color: #eeeeee !important;
-}
-
-/* Columns
------------------------------------------------ */
-.main-outer {
-  border-top: 0 solid transparent;
-}
-
-.fauxcolumn-left-outer .fauxcolumn-inner {
-  border-right: 1px solid transparent;
-}
-
-.fauxcolumn-right-outer .fauxcolumn-inner {
-  border-left: 1px solid transparent;
 }
 
 /* Headings
@@ -103,6 +74,10 @@ h2.date-header {
 .date-header-line-5h {
   background-color: #bbbbbb !important;
   border: 1px solid #bbbbbb !important;
+}
+
+.post-body {
+  background: #f0f0f0 !important;
 }
 
 .post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
