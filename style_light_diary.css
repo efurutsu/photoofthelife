@@ -42,7 +42,7 @@ a:hover {
 }
 .tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
   color: #000000 !important;
-  background-color: #444444 !important;
+  background-color: #c7c7c7 !important;
 }
 
 /* Headings
