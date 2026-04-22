@@ -1,0 +1,214 @@
+/* Content
+----------------------------------------------- */
+body {
+  color: #c6c6c6;
+  background: #181818;
+}
+
+a:link {
+  color: #2288bb;
+}
+
+a:visited {
+  color: #2288bb;
+}
+
+a:hover {
+  color: #2288bb;
+}
+
+.body-fauxcolumn-outer .fauxcolumn-inner {
+  background: transparent none repeat scroll top left;
+}
+
+.body-fauxcolumn-outer .cap-top .cap-left {
+  background: transparent none repeat-x scroll top left;
+}
+
+/* Header
+----------------------------------------------- */
+.header-outer {
+  background: transparent none repeat-x scroll 0 -400px;
+}
+
+.Header h1 {
+  color: #3399bb;
+  text-shadow: 0 0 0 rgba(0, 0, 0, .2);
+}
+
+.Header h1 a {
+/*  color: #3399bb;  */
+  color: #2288bb;
+}
+
+.Header .description {
+  color: #e0e0e0;
+}
+
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+/*  border-top: 0 solid #dddddd; */
+}
+
+.tabs-inner .widget ul {
+  background: transparent none repeat-x scroll 0 -800px;
+/*  border-bottom: 1px solid #dddddd; */
+}
+
+.tabs-inner .widget ul {
+  color: #e0e0e0;
+/*  border-$startSide: 1px solid #202020; */
+/*  border-$endSide: 1px solid #dddddd; */
+}
+.tabs-inner .widget li a {
+  color: #e0e0e0;
+/*  border-$startSide: 1px solid #202020; */
+/*  border-$endSide: 1px solid #dddddd; */
+}
+
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+  color: #e0e0e0;
+  background-color: #444444;
+}
+
+/* Columns
+----------------------------------------------- */
+.main-outer {
+  border-top: 0 solid transparent;
+}
+
+.fauxcolumn-left-outer .fauxcolumn-inner {
+  border-right: 1px solid transparent;
+}
+
+.fauxcolumn-right-outer .fauxcolumn-inner {
+  border-left: 1px solid transparent;
+}
+
+/* Headings
+----------------------------------------------- */
+div.widget > h2,
+div.widget h2.title {
+  color: #000000;
+}
+
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+  color: #999999;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+  background-color: #666666;
+}
+
+.date-header span {
+  background-color: #666666;
+  color: #ffffff;
+}
+
+.date-header-line-5h {
+  background-color: #666666;
+  border: 1px solid #666666;
+}
+
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+
+.post-body .tr-caption-container {
+  color: #666666;
+}
+
+.post-body .tr-caption-container img {
+  background: transparent;
+
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+
+.post-footer {
+  color: #e6e6e6;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #353535;
+}
+
+#comments .comment-author {
+  border-top: 1px solid transparent;
+}
+
+#comments .avatar-image-container img {
+  border: 1px solid #eeeeee;
+}
+
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .loadmore a {
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+.comments .comment-thread.inline-thread {
+  background-color: #f9f9f9;
+}
+
+.comments .continue {
+  border-top: 2px solid #999999;
+}
+
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+  border-$startSide: 1px solid transparent;
+}
+
+.blog-pager {
+  background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/simple/paging_dot.png) repeat-x scroll top center;
+}
+
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+  background-color: #202020;
+}
+
+.footer-outer {
+  border-top: 1px dashed #bbbbbb;
+}
+
+
+/* アイコン（クリック対象）アイコンに合わせて調整 */
+.archive-toggle:hover {
+  background-color: #444444;
+}
+/* アーカイブコンテナの初期状態：隠す */
+.archive-wrapper {
+  background: #202020;
+  border: 1px solid #ccc;
+}
+/* --- アーカイブのリストタイトル（月） --- */
+/* --- 記事タイトル --- */
+.BlogArchive .posts li a{
+  color: #2288bb !important;
+}
+/* --- 記事の日付 --- */
+.BlogArchive .post-count-link {
+  color: #2288bb !important;
+}
+/* --- ホバー時の色変更 --- */
+.BlogArchive a:hover {
+  color: #2288bb !important;
+}
+
+.Attribution {display: none;}
+]]></b:skin>
