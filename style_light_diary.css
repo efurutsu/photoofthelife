@@ -76,6 +76,9 @@ h2.date-header {
   border: 1px solid #bbbbbb !important;
 }
 
+.content-outer {
+  background-color: #f0f0f0 !important;
+}
 .main-outer {
   background-color: #f0f0f0 !important;
 }
