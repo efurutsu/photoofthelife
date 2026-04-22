@@ -144,3 +144,11 @@ h3.post-title {
 #loading-wrapper {
     background-color: #ffffff !important; /* ”wŒiF */
 }
+
+/* –¾ˆÃƒAƒCƒRƒ“‚Ì”wŒi */
+.float-icon {
+  background-color: rgba(128, 192, 192, 0.5); /* ”¼“§–¾‚Ì”wŒi */
+}
+.float-icon:hover {
+  background-color: rgba(128, 192, 192, 0.8);
+}
