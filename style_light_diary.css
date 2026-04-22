@@ -2,7 +2,7 @@
 ----------------------------------------------- */
 body {
   color: #666666 !important;
-  background: #e7e7e7;
+  background: #e7e7e7 !important;
 }
 
 a:link {
@@ -47,26 +47,15 @@ a:hover {
 
 /* Tabs
 ----------------------------------------------- */
-.tabs-inner .section:first-child {
-/*  border-top: 0 solid #dddddd !important; */
-}
-
 .tabs-inner .widget ul {
   background: transparent none repeat-x scroll 0 -800px;
-/*  border-bottom: 1px solid #dddddd; */
 }
-
 .tabs-inner .widget ul {
   color: #000000 !important;
-/*  border-$startSide: 1px solid #e7e7e7; */
-/*  border-$endSide: 1px solid #dddddd; */
 }
 .tabs-inner .widget li a {
   color: #000000 !important;
-/*  border-$startSide: 1px solid #e7e7e7; */
-/*  border-$endSide: 1px solid #dddddd; */
 }
-
 .tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
   color: #000000 !important;
   background-color: #eeeeee !important;

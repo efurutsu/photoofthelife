@@ -47,26 +47,15 @@ a:hover {
 
 /* Tabs
 ----------------------------------------------- */
-.tabs-inner .section:first-child {
-/*  border-top: 0 solid #dddddd; */
-}
-
 .tabs-inner .widget ul {
   background: transparent none repeat-x scroll 0 -800px;
-/*  border-bottom: 1px solid #dddddd; */
 }
-
 .tabs-inner .widget ul {
   color: #e0e0e0 !important;
-/*  border-$startSide: 1px solid #202020; */
-/*  border-$endSide: 1px solid #dddddd; */
 }
 .tabs-inner .widget li a {
   color: #e0e0e0 !important;
-/*  border-$startSide: 1px solid #202020; */
-/*  border-$endSide: 1px solid #dddddd; */
 }
-
 .tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
   color: #e0e0e0 !important;
   background-color: #444444 !important;
