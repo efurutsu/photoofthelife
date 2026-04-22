@@ -5,8 +5,8 @@ body {
   background: #181818 !important;
 }
 
-.content-fauxcolumn-outer
-  background: #181818 !important;
+.fauxcolumn-outer:
+  background-color: #181818 !important;
 }
 
 a:link {
