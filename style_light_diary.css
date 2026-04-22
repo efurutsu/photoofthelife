@@ -37,6 +37,9 @@ a:hover {
 .tabs-inner .widget ul {
   color: #000000 !important;
 }
+.tabs-inner .widget li {
+  color: #000000 !important;
+}
 .tabs-inner .widget li a {
   color: #000000 !important;
 }
@@ -45,9 +48,11 @@ a:hover {
   background-color: #c7c7c7 !important;
 }
 .archive-toggle:hover {
+  color: #000000 !important;
   background-color: #c7c7c7 !important;
 }
 .search-toggle:hover {
+  color: #000000 !important;
   background-color: #c7c7c7 !important;
 }
 
