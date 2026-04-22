@@ -5,6 +5,10 @@ body {
   background: #181818 !important;
 }
 
+.content-fauxcolumn-outer
+  background: #181818 !important;
+}
+
 a:link {
   color: #2288bb;
 }
@@ -20,12 +24,11 @@ a:hover {
 /* Header
 ----------------------------------------------- */
 .Header h1 {
-  color: #3399bb !important;
+  color: #e0e0e0 !important;
   text-shadow: 0 0 0 rgba(0, 0, 0, .2);
 }
 
 .Header h1 a {
-/*  color: #3399bb;  */
   color: #2288bb;
 }
 
