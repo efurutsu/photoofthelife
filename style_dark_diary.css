@@ -5,10 +5,6 @@ body {
   background: #181818 !important;
 }
 
-.fauxborder-outer:
-  background-color: #181818 !important;
-}
-
 a:link {
   color: #2288bb;
 }
@@ -79,7 +75,7 @@ h2.date-header {
   border: 1px solid #666666 !important;
 }
 
-.content-outer {
+.content-inner {
   background-color: #181818 !important;
 }
 .main-outer {
@@ -110,7 +106,7 @@ h2.date-header {
 
 .post-footer {
   color: #e6e6e6 !important;
-  background-color: #f9f9f9 !important;
+  background-color: #333333 !important;
   border-bottom: 1px solid #353535 !important;
 }
 
