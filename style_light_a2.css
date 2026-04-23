@@ -323,6 +323,7 @@ a.taglink:hover{color:white;background:#008ec2;
   color:#555; /* LightSet */
   background:#f4f4f4;
   box-shadow:1px 1px 5px rgba(0,0,0, 0.4); /* ‰e */
+  margin-right: 5px;
 }
 #related-posts a{
   color:#555; /* LightSet */
