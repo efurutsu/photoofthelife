@@ -339,6 +339,7 @@ a.taglink:hover{color:white;background:#008ec2;
   margin-bottom: 5px; /* ƒIƒŠƒWƒiƒ‹‚Í 30px; */
   background: #008ec2;
   color: #fff;
+  width:100%;
 }
 #related-posts .related_img {
   margin:5px;
