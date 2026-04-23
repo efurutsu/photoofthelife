@@ -320,13 +320,14 @@ a.taglink:hover{color:white;background:#008ec2;
 -------------------------------------- */
 #related-posts{
   width:auto;
+  display: flex; /* Flexboxを有効化 */
+  justify-content: space-between; /* 子要素を均等に配置（両端に余白なし） */
 }
 #related-posts a{
   color:#555; /* LightSet */
   background:#f4f4f4; /* LightSet */
   transition:0.3s;
   box-shadow:1px 1px 5px rgba(0,0,0, .4);
-  margin-right: 5px;
 }
 #related-posts a:hover{
   color:#fff;
