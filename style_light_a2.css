@@ -320,6 +320,8 @@ a.taglink:hover{color:white;background:#008ec2;
 -------------------------------------- */
 #related-posts{
   width:auto;
+  color:#555; /* LightSet */
+  background:#e9e9e9;
 }
 #related-posts a{
   color:#555; /* LightSet */

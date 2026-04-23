@@ -320,6 +320,8 @@ a.taglink:hover{color:white;background:#008ec2;
 -------------------------------------- */
 #related-posts{
   width:auto;
+  color:#bbb; /* DarkSet */
+  background:#222222;
 }
 #related-posts a{
   color:#bbb; /* DarkSet */
