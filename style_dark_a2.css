@@ -322,6 +322,7 @@ a.taglink:hover{color:white;background:#008ec2;
   width:auto;
   color:#bbb; /* DarkSet */
   background:#222222;
+  box-shadow:1px 1px 5px rgba(0,0,0, 0.4); /* ‰e */
 }
 #related-posts a{
   color:#bbb; /* DarkSet */
