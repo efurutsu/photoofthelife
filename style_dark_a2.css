@@ -284,15 +284,15 @@ p.kousin a {
   text-align: center;
   padding: 0px 5px 0 5px;/*•¶š‚Ì—]”’*/
   background: #666666;
-  color: black;/*•¶šF*/
+  color: white;/*•¶šF*/
   box-sizing: border-box;
   border-radius: 3px;/*Šp‚ğŠÛ‚­*/
   font-size:10px !important;
   margin: 1px;
 }
-a.taglink:link{color:black;}
-a.taglink:visited{color:black;}
-a.taglink:active{color:black;}
+a.taglink:link{color:white;}
+a.taglink:visited{color:white;}
+a.taglink:active{color:white;}
 a.taglink:hover{color:white;background:#008ec2;
 }
 
