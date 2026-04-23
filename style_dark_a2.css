@@ -324,7 +324,7 @@ a.taglink:hover{color:white;background:#008ec2;
   justify-content: space-between; /* 子要素を均等に配置（両端に余白なし） */
 }
 #related-posts .col_maskolis{
-  width: 24%
+  width: 23%
   box-shadow:1px 1px 5px rgba(128,128,128, .4);
 }
 #related-posts a{
