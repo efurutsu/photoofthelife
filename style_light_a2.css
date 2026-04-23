@@ -320,19 +320,18 @@ a.taglink:hover{color:white;background:#008ec2;
 -------------------------------------- */
 #related-posts{
   width:auto;
-  color:#555; /* LightSet */
-  background:#f4f4f4;
-  box-shadow:1px 1px 5px rgba(0,0,0, 0.4); /* ‰e */
-  margin-right: 5px;
 }
 #related-posts a{
   color:#555; /* LightSet */
-  background:#f4f4f4;
+  background:#f4f4f4; /* LightSet */
   transition:0.3s;
+  box-shadow:1px 1px 5px rgba(0,0,0, .4);
+  margin-right: 5px;
 }
 #related-posts a:hover{
   color:#fff;
   background:#008ec2;
+  box-shadow:1px 1px 5px rgba(0,0,0, .4);
 }
 #related-posts h2{
   padding: .5em .75em;
