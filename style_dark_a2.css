@@ -323,25 +323,24 @@ a.taglink:hover{color:white;background:#008ec2;
   display: flex; /* Flexboxを有効化 */
   justify-content: space-between; /* 子要素を均等に配置（両端に余白なし） */
 }
+#related-posts .col_maskolis{
+  width: 24%
+  box-shadow:1px 1px 5px rgba(128,128,128, .4);
+}
 #related-posts a{
   color:#bbb; /* DarkSet */
   background:#222222; /* DarkSet */
   transition:0.3s;
-  box-shadow:1px 1px 5px rgba(128,128,128, .4);
-  width: 25%
 }
 #related-posts a:hover{
   color:#fff;
   background:#008ec2;
-  box-shadow:1px 1px 5px rgba(128,128,128, .4);
-  width: 25%
 }
 #related-posts h2{
   padding: .5em .75em;
   margin-bottom: 5px; /* オリジナルは 30px; */
   background: #008ec2;
   color: #fff;
-  width:100%;
 }
 #related-posts .related_img {
   margin:5px;
