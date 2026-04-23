@@ -327,12 +327,14 @@ a.taglink:hover{color:white;background:#008ec2;
   color:#bbb; /* DarkSet */
   background:#222222; /* DarkSet */
   transition:0.3s;
-  box-shadow:1px 1px 5px rgba(96,96,96, .4);
+  box-shadow:1px 1px 5px rgba(128,128,128, .4);
+  width: 25%
 }
 #related-posts a:hover{
   color:#fff;
   background:#008ec2;
-  box-shadow:1px 1px 5px rgba(96,96,96, .4);
+  box-shadow:1px 1px 5px rgba(128,128,128, .4);
+  width: 25%
 }
 #related-posts h2{
   padding: .5em .75em;
