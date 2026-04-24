@@ -1,0 +1,141 @@
+body{
+  background-color: #e8e8e8;  /* LightSet 全体の背景色  */
+  color:#000000; /* LightSet 全体のフォント色  */
+}
+
+/*   目次
+----------------------------------------------- */
+#toc {
+  background: #e9e9e9; /* LightSet */
+}
+
+/*   記事のフォント
+----------------------------------------------- */
+.main-outer h1{
+  color: #000000;  /* LightSet */
+}
+.entry-title {
+  color: #000; /* LightSet */
+}
+
+/*   ヘッダー 
+--------------------------------------- */
+.Header{
+  background-color: #e8e8e8;  /* LightSet */
+}
+/*   記事ページ
+-------------------------------------------- */
+.main-outer{
+  border-left:1px solid #e4e4e4;  /* LightSet */
+  border-right: 1px solid #e4e4e4; /* LightSet */
+}
+.post-outer{
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
+}
+/*   トップページ、カテゴリ、アーカイブの記事一覧
+--------------------------------------------------------- */
+.article-list{
+  background-color: #f4f4f4; /* LightSet */
+}
+.article-list:hover{
+  background-color: #d9d9d9; /* LightSet */
+}
+/*  記事一覧のタイトル  */
+
+.article-list-title h2{
+  color: #555; /* LightSet */
+}
+/*  記事一覧の公開日、カテゴリ名  */
+.snippet{
+  color: #555; /* LightSet */
+}
+.post-timestamp {
+  color: #555; /* LightSet */
+}
+/*   関連記事 
+-------------------------------------- */
+#related-posts a{
+  color: #555; /* LightSet */
+  background: #f4f4f4; /* LightSet */
+}
+#related-posts a{
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
+}
+#related-posts a:hover{
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
+}
+/*    コメント関連
+------------------------------------------------ */
+* コメント欄下区切り線 */
+.comment-block{
+  background-color: #ffffff; /* LightSet */
+}
+/* 返信コメントの背景色 */
+.comment-replies{
+  background-color: #e8e8e8; /* LightSet */
+}
+/* コメント欄内右側余白 */
+.comment-content{
+  background-color: #ffffff; /* LightSet */
+}
+/* コメントエディタ */
+#comment-form {
+  background-color: #e8e8e8; /* LightSet */
+}
+/*    ページナビゲーション
+------------------------------------------------ */
+.displaypageNum, .showpage, .pagecurrent {font-size: 14px;padding: 5px 12px;margin-right:5px; background-color:#fff; text-decoration:none; color: #000;}
+.displaypageNum a:link, .showpage a:link {font-size: 14px;padding: 5px 12px;margin-right:5px; background-color:#fff; text-decoration:none; color: #000;}
+.displaypageNum a:hover, .showpage a:hover, .pagecurrent {font-size: 14px;padding: 5px 12px;margin-right:5px; background:#359BED; text-decoration:none; color: #fff;}
+.showpageOf{display:none!important}
+
+/*   サイドバー
+-------------------------------------- */
+/*   サイドバー見出し   */
+.sidebar h2,h3,h4{
+  color: #333333; /* LightSet */
+}
+.jump2imageUrl img {
+  box-shadow: 1px 1px 5px rgba(0,0,0, 0.4) !important;
+}
+/*   新着記事    
+--------------------------------------- */
+.bcd140526_post_feed li.item h3.title a {
+  color: #555; /* LightSet */
+}
+/*   人気記事    
+--------------------------------------- */
+.jump2imageUrlback {
+  color: #555; /* LightSet */
+  background-color:#f4f4f4; /* LightSet */
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
+}
+.jump2imageUrlback:hover {
+  color: #000; /* LightSet */
+  background-color:#d9d9d9; /* LightSet */
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
+}
+.jump2imageUrl img {
+  filter: brightness(100%);  /* LightSet */
+}
+.jump2imageUrl:hover img {
+  filter: brightness(80%);  /* LightSet */
+}
+/*   ラベル
+-------------------------------------------- */  
+.list-label-widget-content ul li a {
+  color: #555555; /* LightSet */
+  background-color:#ffffff; /* LightSet */
+  border: 1px solid #e4e4e4; /* LightSet */
+}
+/*   リンクリスト
+-------------------------------------------- */  
+.LinkList ul li a {
+  color: #555; /* LightSet */
+}
+/*   先頭へ戻るボタン
+--------------------------------------------------- */
+.gsc-search-box input{
+  background-color: #ffffff; /* LightSet */
+  color: #000000; /* LightSet */
+}
