@@ -58,6 +58,12 @@ body{
   color:#555; /* LightSet */
   background:#f4f4f4; /* LightSet */
 }
+#related-posts a{
+  box-shadow:1px 1px 5px rgba(0,0,0, .4);
+}
+#related-posts a:hover{
+  box-shadow:1px 1px 5px rgba(0,0,0, .4);
+}
 /*    コメント関連
 ------------------------------------------------ */
 * コメント欄下区切り線 */
@@ -89,6 +95,9 @@ body{
 .sidebar h2,h3,h4{
   color:#333333; /* LightSet */
 }
+.jump2imageUrl img {
+  box-shadow: 1px 1px 5px rgba(0,0,0, 0.4);
+}
 /*   新着記事    
 --------------------------------------- */
 .bcd140526_post_feed li.item h3.title a {
@@ -99,10 +108,12 @@ body{
 .jump2imageUrlback {
   color: #555; /* LightSet */
   background-color:#f4f4f4; /* LightSet */
+  box-shadow:1px 1px 5px rgba(0,0,0, .4);
 }
 .jump2imageUrlback:hover {
   color: #000; /* LightSet */
   background-color:#d9d9d9; /* LightSet */
+  box-shadow:1px 1px 5px rgba(0,0,0, .4);
 }
 .jump2imageUrl img {
   filter: brightness(100%);  /* LightSet */
