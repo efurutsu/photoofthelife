@@ -30,7 +30,7 @@ body{
   border-right:1px solid #e4e4e4; /* LightSet */
 }
 .post-outer{
-  box-shadow:1px 1px 5px rgba(0,0,0, .4); /* 影 */
+  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
 }
 /*   トップページ、カテゴリ、アーカイブの記事一覧
 --------------------------------------------------------- */
@@ -59,10 +59,10 @@ body{
   background:#f4f4f4; /* LightSet */
 }
 #related-posts a{
-  box-shadow:1px 1px 5px rgba(0,0,0, .4);
+  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
 }
 #related-posts a:hover{
-  box-shadow:1px 1px 5px rgba(0,0,0, .4);
+  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
 }
 /*    コメント関連
 ------------------------------------------------ */
@@ -96,7 +96,7 @@ body{
   color:#333333; /* LightSet */
 }
 .jump2imageUrl img {
-  box-shadow: 1px 1px 5px rgba(0,0,0, 0.4);
+  box-shadow: 1px 1px 5px rgba(0,0,0, 0.4) !important;
 }
 /*   新着記事    
 --------------------------------------- */
@@ -108,12 +108,12 @@ body{
 .jump2imageUrlback {
   color: #555; /* LightSet */
   background-color:#f4f4f4; /* LightSet */
-  box-shadow:1px 1px 5px rgba(0,0,0, .4);
+  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
 }
 .jump2imageUrlback:hover {
   color: #000; /* LightSet */
   background-color:#d9d9d9; /* LightSet */
-  box-shadow:1px 1px 5px rgba(0,0,0, .4);
+  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
 }
 .jump2imageUrl img {
   filter: brightness(100%);  /* LightSet */
