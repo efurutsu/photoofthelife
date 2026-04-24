@@ -6,13 +6,13 @@ body{
 /*   目次
 ----------------------------------------------- */
 #toc {
-  background:#e9e9e9; /* LightSet */
+  background: #e9e9e9; /* LightSet */
 }
 
 /*   記事のフォント
 ----------------------------------------------- */
 .main-outer h1{
-  color:#000000;  /* LightSet */
+  color: #000000;  /* LightSet */
 }
 .entry-title {
   color: #000; /* LightSet */
@@ -27,42 +27,42 @@ body{
 -------------------------------------------- */
 .main-outer{
   border-left:1px solid #e4e4e4;  /* LightSet */
-  border-right:1px solid #e4e4e4; /* LightSet */
+  border-right: 1px solid #e4e4e4; /* LightSet */
 }
 .post-outer{
-  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
 }
 /*   トップページ、カテゴリ、アーカイブの記事一覧
 --------------------------------------------------------- */
 .article-list{
-  background-color:#f4f4f4; /* LightSet */
+  background-color: #f4f4f4; /* LightSet */
 }
 .article-list:hover{
-  background-color:#d9d9d9; /* LightSet */
+  background-color: #d9d9d9; /* LightSet */
 }
 /*  記事一覧のタイトル  */
 
 .article-list-title h2{
-  color:#555; /* LightSet */
+  color: #555; /* LightSet */
 }
 /*  記事一覧の公開日、カテゴリ名  */
 .snippet{
-  color:#555; /* LightSet */
+  color: #555; /* LightSet */
 }
 .post-timestamp {
-  color:#555; /* LightSet */
+  color: #555; /* LightSet */
 }
 /*   関連記事 
 -------------------------------------- */
 #related-posts a{
-  color:#555; /* LightSet */
-  background:#f4f4f4; /* LightSet */
+  color: #555; /* LightSet */
+  background: #f4f4f4; /* LightSet */
 }
 #related-posts a{
-  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
 }
 #related-posts a:hover{
-  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
 }
 /*    コメント関連
 ------------------------------------------------ */
@@ -93,7 +93,7 @@ body{
 -------------------------------------- */
 /*   サイドバー見出し   */
 .sidebar h2,h3,h4{
-  color:#333333; /* LightSet */
+  color: #333333; /* LightSet */
 }
 .jump2imageUrl img {
   box-shadow: 1px 1px 5px rgba(0,0,0, 0.4) !important;
@@ -108,12 +108,12 @@ body{
 .jump2imageUrlback {
   color: #555; /* LightSet */
   background-color:#f4f4f4; /* LightSet */
-  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
 }
 .jump2imageUrlback:hover {
   color: #000; /* LightSet */
   background-color:#d9d9d9; /* LightSet */
-  box-shadow:1px 1px 5px rgba(0,0,0, .4) !important;
+  box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
 }
 .jump2imageUrl img {
   filter: brightness(100%);  /* LightSet */

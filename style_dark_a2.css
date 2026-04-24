@@ -6,13 +6,13 @@ body{
 /*   目次
 ----------------------------------------------- */
 #toc {
-  background:#222222; /* DarkSet */
+  background: #222222; /* DarkSet */
 }
 
 /*   記事のフォント
 ----------------------------------------------- */
 .main-outer h1{
-  color:#fecb17;  /* DarkSet */
+  color: #fecb17;  /* DarkSet */
 }
 .entry-title {
   color: #fff; /* DarkSet */
@@ -27,42 +27,42 @@ body{
 -------------------------------------------- */
 .main-outer{
   border-left:1px solid #222222;  /* DarkSet */
-  border-right:1px solid #222222; /* DarkSet */
+  border-right: 1px solid #222222; /* DarkSet */
 }
 .post-outer{
-  box-shadow:1px 1px 5px rgba(255,255,255, .4) !important;
+  box-shadow: 1px 1px 5px rgba(255,255,255, .4) !important;
 }
 /*   トップページ、カテゴリ、アーカイブの記事一覧
 --------------------------------------------------------- */
 .article-list{
-  background-color:#222222; /* DarkSet */
+  background-color: #222222; /* DarkSet */
 }
 .article-list:hover{
-  background-color:#444444; /* DarkSet */
+  background-color: #444444; /* DarkSet */
 }
 /*  記事一覧のタイトル  */
 
 .article-list-title h2{
-  color:#fecb17; /* DarkSet */
+  color: #fecb17; /* DarkSet */
 }
 /*  記事一覧の公開日、カテゴリ名  */
 .snippet{
-  color:#bbb; /* DarkSet */
+  color: #bbb; /* DarkSet */
 }
 .post-timestamp {
-  color:#bbb; /* DarkSet */
+  color: #bbb; /* DarkSet */
 }
 /*   関連記事 
 -------------------------------------- */
 #related-posts a{
-  color:#bbb; /* DarkSet */
-  background:#222222; /* DarkSet */
+  color: #bbb; /* DarkSet */
+  background: #222222; /* DarkSet */
 }
 #related-posts a{
-  box-shadow:1px 1px 5px rgba(255,255,255, .4) !important;
+  box-shadow: 1px 1px 5px rgba(255,255,255, .4) !important;
 }
 #related-posts a:hover{
-  box-shadow:1px 1px 5px rgba(255,255,255, .4) !important;
+  box-shadow: 1px 1px 5px rgba(255,255,255, .4) !important;
 }
 /*    コメント関連
 ------------------------------------------------ */
@@ -93,7 +93,7 @@ body{
 -------------------------------------- */
 /*   サイドバー見出し   */
 .sidebar h2,h3,h4{
-  color:#bbbbbb; /* DarkSet */
+  color: #bbbbbb; /* DarkSet */
 }
 .jump2imageUrl img {
   box-shadow: 1px 1px 5px rgba(255,255,255, 0.4) !important;
@@ -108,12 +108,12 @@ body{
 .jump2imageUrlback {
   color: #bbb; /* DarkSet */
   background-color:#222222; /* DarkSet */
-  box-shadow:1px 1px 5px rgba(255,255,255, .4) !important;
+  box-shadow: 1px 1px 5px rgba(255,255,255, .4) !important;
 }
 .jump2imageUrlback:hover {
   color: #fff; /* DarkSet */
   background-color:#444444; /* DarkSet */
-  box-shadow:1px 1px 5px rgba(255,255,255, .4) !important;
+  box-shadow: 1px 1px 5px rgba(255,255,255, .4) !important;
 }
 .jump2imageUrl img {
   filter: brightness(90%);  /* DarkSet */
