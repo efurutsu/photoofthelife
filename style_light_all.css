@@ -33,8 +33,8 @@ body{
   box-shadow: 1px 1px 5px rgba(0,0,0, .4) !important;
 }
 .post-column{
-  color:#000;
-  background-color: #d9d9d9;
+  color:#000 !important;
+  background-color: #d9d9d9 !important;
 }
 /*   トップページ、カテゴリ、アーカイブの記事一覧
 --------------------------------------------------------- */
