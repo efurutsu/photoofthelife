@@ -32,7 +32,7 @@ body{
 .post-outer{
   box-shadow: -1px -1px 5px rgba(192,192,192, .4) !important;
 }
-.column{
+.post-column{
   color:#fff;
   background-color: #444444;
 }
