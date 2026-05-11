@@ -23,7 +23,7 @@ body{
 .Header{
   background-color: #161616;  /* DarkSet 全体の背景色  */
 }
-/*   記事ページ
+/*   記事ページ、コラム
 -------------------------------------------- */
 .main-outer{
   border-left:1px solid #222222;  /* DarkSet */
@@ -31,6 +31,10 @@ body{
 }
 .post-outer{
   box-shadow: -1px -1px 5px rgba(192,192,192, .4) !important;
+}
+.post-column-title{
+  color:#fff !important;
+  background-color: #222222 !important;
 }
 .post-column{
   color:#fff !important;
