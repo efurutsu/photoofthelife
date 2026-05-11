@@ -35,10 +35,23 @@ body{
 .post-column-title{
   color:#000 !important;
   background-color: #e4e4e4 !important;
+  font-weight: bold;
+  left: 15px;
+  padding: 2px 10px 0px;
+  position: absolute;
+  top: -14px;
+  border-radius: 5px;
+  border: 1px solid rgb(128, 128, 128);
+  box-shadow: rgba(128, 128, 128, 0.4) 1px 1px 5px;
 }
 .post-column{
   color:#000 !important;
   background-color: #d9d9d9 !important;
+  position: relative;
+  padding: 17px 10px 7px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(128, 128, 128);
+  box-shadow: rgba(128, 128, 128, 0.4) 1px 1px 5px;
 }
 /*   トップページ、カテゴリ、アーカイブの記事一覧
 --------------------------------------------------------- */
