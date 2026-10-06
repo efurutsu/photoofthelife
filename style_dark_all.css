@@ -146,8 +146,8 @@ body{
 -------------------------------------------- */  
 .list-label-widget-content ul li a {
   color: #bbbbbb; /* DarkSet */
-  background-color: #080808; /* DarkSet */
-  border: 1px solid #333333; /* DarkSet */
+  background-color: #080808 !important; /* DarkSet */
+  border: 1px solid #333333 !important; /* DarkSet */
 }
 /*   ƒŠƒ“ƒNƒŠƒXƒg
 -------------------------------------------- */  

@@ -146,8 +146,8 @@ body{
 -------------------------------------------- */  
 .list-label-widget-content ul li a {
   color: #555555; /* LightSet */
-  background-color:#ffffff; /* LightSet */
-  border: 1px solid #e4e4e4; /* LightSet */
+  background-color:#ffffff !important; /* LightSet */
+  border: 1px solid #e4e4e4 !important; /* LightSet */
 }
 /*   ƒŠƒ“ƒNƒŠƒXƒg
 -------------------------------------------- */  
