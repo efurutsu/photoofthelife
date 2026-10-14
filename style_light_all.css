@@ -73,6 +73,10 @@ body{
 .post-timestamp {
   color: #555; /* LightSet */
 }
+.taglink {
+  background: #999999 !important;
+  color: white;				/*•¶šF*/
+}
 /*   ŠÖ˜A‹L– 
 -------------------------------------- */
 #related-posts a{
